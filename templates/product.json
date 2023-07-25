@@ -10,7 +10,7 @@
             "product_show_vendor": false,
             "product_show_cutline": false,
             "show_rating": true,
-            "show_rating_count": false
+            "show_rating_count": true
           }
         },
         "form": {
@@ -58,8 +58,8 @@
           "settings": {
             "heading": "WORKS BEST WITH",
             "heading_font_size": 14,
-            "heading_color": "#121212",
-            "hover_border_color": "#121212"
+            "heading_color": "#262514",
+            "hover_border_color": "#262514"
           }
         }
       },
@@ -75,7 +75,7 @@
         "enable_video_looping": false,
         "zoom_enable": false,
         "width": "wrapper",
-        "padding_top": 120,
+        "padding_top": 70,
         "padding_bottom": 70
       }
     },
@@ -166,6 +166,7 @@
     "3a5d9cae-81b7-4726-8e2f-75d6f5b513cb": {
       "type": "section-row",
       "custom_css": [
+        ".wrapper--full{padding:0;}",
         ".overlap__image {width: 50%;}",
         ".overlap__item {margin: 0px !important; background: #d6d1ca;}",
         ".overlap__content__wrapper {text-align: center; color: #000 !important; font-family: \"Neue Haas Unica\", sans-serif; font-weight: 400; font-size: 26px; padding: 0 20%;}",
