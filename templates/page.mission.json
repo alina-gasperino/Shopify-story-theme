@@ -1,0 +1,243 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "56a2787b-894d-44bd-b590-908635c747fd": {
+      "type": "section-hero",
+      "blocks": {
+        "df1d5fa3-adb8-478a-abc1-848f2fb0387f": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<h6>modern intimacy®<\/h6>",
+            "enable_caps": false,
+            "text_size": 4
+          }
+        },
+        "template--16220471722152__56a2787b-894d-44bd-b590-908635c747fd-1685725523b5b6e37c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>give back.<\/h1>",
+            "text_size": 15
+          }
+        },
+        "template--16220471722152__56a2787b-894d-44bd-b590-908635c747fd-1685725523b5b6e37c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At souldesign1, we believe it is our responsibility to support inclusive, sexual health and education for all people.<\/p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "df1d5fa3-adb8-478a-abc1-848f2fb0387f",
+        "template--16220471722152__56a2787b-894d-44bd-b590-908635c747fd-1685725523b5b6e37c-0",
+        "template--16220471722152__56a2787b-894d-44bd-b590-908635c747fd-1685725523b5b6e37c-1"
+      ],
+      "custom_css": [
+        "p {font-size: 16px; font-weight: 400; font-style: normal; font-stretch: normal; line-height: 1.31; letter-spacing: normal; max-width: 400px;}",
+        ".hero__content {padding-left: 100px;}",
+        "h1 {font-weight: 700;}",
+        ".hero__kicker {font-family: \"Neue Haas Unica\"; font-size: 16px; text-transform: none; letter-spacing: 0;}",
+        ".standard__heading {font-size: 40px; line-height: 1.2; margin-top: 16px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/give-back-1_1600x_1.webp",
+        "bg_position": "center-center",
+        "height": "use_pixels_500",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "align_text": "text-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5635bb7d-80b9-4923-9370-8bdd12365cb8": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important;}",
+        ".overlap__image {width: 50%;}",
+        ".overlap__text {padding-right: 19%;}",
+        ".overlap__item {margin: 0px !important; background: #f6f5f3;}",
+        ".rte-setting h4 {margin-left: 23%; font-size: 20px; margin-right: 15%; font-weight: 400; line-height: 1.41; font-family: \"Neue Haas Unica\"; color: #262514 !important;}",
+        ".image__fill {padding-top: 0%; height: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/give-back-2_600x_8d792b9b-e851-43ee-995d-cb08aefaa590.webp",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.3,
+        "layout": "right",
+        "title": "",
+        "text": "<h4>We believe that comprehensive sex education is a vehicle for social impact and are directing our efforts to support and amplify the organizations that are working to advance standards through advocacy, educational curriculum, and accessibility across the country.<br\/><br\/>We are proud to support the following organizations that align with these pillars of change.<\/h4>",
+        "logotext": "",
+        "text2": "",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--black",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "76456ad6-c801-4813-ad4a-a4c561e1fcb1": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important; background: #262514;}",
+        ".overlap__image {width: 50%;}",
+        ".overlap__text {padding-left: 8%;}",
+        ".overlap__content__wrapper {margin-right: 30%;}",
+        ".overlap__item {background: #262514; color: white; margin: 0px; border-radius: 0px !important;}",
+        ".h3 {color: white; font-weight: 700; font-size: 32px;}",
+        ".image__fill {padding-top: 0%; height: 100%;}",
+        ".overlap__rte {font-size: 14px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/give-back-siecus_600x_8cf86645-642d-4010-a799-1977452fc875.webp",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.3,
+        "layout": "left",
+        "title": "advocacy.",
+        "text": "<p>Sex education policy remains in the hands of state legislators with policies differing across the nation. In the past year, only 1% of the 84 proposed bills seeking to advance sexual health curriculum were enacted—those passed aimed to restrict the evolution and inclusivity of sex education.<\/p>",
+        "logotext": "<p>OUR PARTNER<\/p>",
+        "logo": "shopify:\/\/shop_images\/give-back-seicus.webp",
+        "text2": "<p>Focusing on cross-movement federal policy, SIECUS advances sex education by leading the Sex Ed Policy Action Council (SEPAC), a network of state-based sex-ed advocates and policy leaders—working toward a world where all people can access sexual and reproductive freedom as they define it for themselves.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "btn",
+        "button_color": "btn--white",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "37661ea1-6b7d-4b10-a2c0-94685c27e634": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important; background: #b2a9a0;}",
+        ".overlap__image {width: 50%;}",
+        ".overlap__text {padding-right: 19%;}",
+        ".overlap__item {margin: 0px !important; background: #b2a9a0;}",
+        ".overlap__content__wrapper {margin-left: 30%; color: white;}",
+        ".image__fill {padding-top: 0%; height: 100%;}",
+        ".h3 {font-size: 32px; font-weight: 700; margin-bottom: 50px;}",
+        ".overlap__rte {font-size: 14px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/give-back-advocates_600x_84b33a09-2a77-426c-8015-d58dbe240cdc.webp",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.3,
+        "layout": "right",
+        "title": "access.",
+        "text": "<p>Our nation is failing to provide young people with the foundation of sexual health information and skills they need to lead healthy lives. Just 42.8% of all high schools and 17.6% of middle schools in the US provide all topics identified by the CDC as critical sex education topics.<\/p>",
+        "logotext": "<p>OUR PARTNER<\/p>",
+        "logo": "shopify:\/\/shop_images\/give-back-advocates-for-youth3.webp",
+        "text2": "<p>Advocates for Youth partners with youth leaders, parents, and healthcare providers to champion programs that support young people’s access to honest sexual health information that is extensive, confidential, and affordable.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "btn",
+        "button_color": "btn--black",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "fc90aef7-89f2-461b-ba24-f7fd1ec6cf8f": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important; background: #262514;}",
+        ".overlap__image {width: 50%;}",
+        ".overlap__text {padding-left: 8%;}",
+        ".overlap__content__wrapper {margin-right: 30%; font-weight: 400; font-family: \"Neue Haas Unica\";}",
+        ".overlap__item {background: #262514; color: white; margin: 0px; border-radius: 0px !important;}",
+        ".h3 {color: white; font-weight: 700; font-size: 32px;}",
+        ".image__fill {padding-top: 0%; height: 100%;}",
+        ".overlap__rte {font-size: 14px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/give-back-phe_600x_1907d4da-af39-4615-836f-a1e06d8f0180.jpg",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.3,
+        "layout": "left",
+        "title": "education.",
+        "text": "<p>Due to the lack of comprehensive sex education programming in schools, young people, and the educators that lead them, lose access to the tools and knowledge related to sexuality and healthy behaviors. There are 13 states that do not require sex education to be age-appropriate or evidence-based, and even fewer states that require instruction on condoms or contraception when sex education is provided.<\/p>",
+        "logotext": "<p>OUR PARTNER<\/p>",
+        "logo": "shopify:\/\/shop_images\/give-back-peer-health-exchange.webp",
+        "text2": "<p>Peer Health Exchange is advancing sexual health equity for young people by creating educational opportunities for college peers to share the tools and resources young people need to make healthy decisions.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "btn",
+        "button_color": "btn--white",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "41299635-dd39-4b6c-a0aa-9a95aa8510f6": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important; background: #b2a9a0;}",
+        ".overlap__image {padding: 35px 35px 35px 0%; width: 40%;}",
+        ".overlap__text {padding-right: 17%;}",
+        ".overlap__item {margin: 0px !important; background: #b2a9a0;}",
+        ".h3 {color: white; font-size: 16px !important; line-height: 1.6; font-weight: 400;}",
+        "h3 {font-size: 24px; font-weight: 500; color: #fff; margin: 2.2em 0px 1.2em; padding-right: 50px;}",
+        ".overlap__content__wrapper {margin-left: 30%; color: white;}",
+        ".image__fill {padding-top: 0%; height: 100%;}",
+        ".overlap__rte {font-size: 14px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/give-back-4_400x_644b13f3-ddd3-4a1d-8006-57b465522429.webp",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.3,
+        "layout": "right",
+        "title": "modern intimacy®",
+        "text": "<h3>As a modern sexual wellness company built on quality, simplicity, and inclusivity, we’re on a mission to make intimacy better—for all people.<\/h3>",
+        "logotext": "",
+        "text2": "",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Our Story",
+        "button_link": "shopify:\/\/blogs\/news",
+        "button_style": "btn",
+        "button_color": "btn--black",
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    }
+  },
+  "order": [
+    "main",
+    "56a2787b-894d-44bd-b590-908635c747fd",
+    "5635bb7d-80b9-4923-9370-8bdd12365cb8",
+    "76456ad6-c801-4813-ad4a-a4c561e1fcb1",
+    "37661ea1-6b7d-4b10-a2c0-94685c27e634",
+    "fc90aef7-89f2-461b-ba24-f7fd1ec6cf8f",
+    "41299635-dd39-4b6c-a0aa-9a95aa8510f6"
+  ]
+}

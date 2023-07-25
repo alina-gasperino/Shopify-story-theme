@@ -1,0 +1,204 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 8,
+            "product_show_vendor": false,
+            "product_show_cutline": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": false,
+            "enable_payment_button": false,
+            "subscriptions_enable_selectors": false,
+            "info_page": ""
+          }
+        },
+        "ef2cbe2e-0020-4215-acc9-2385e758c24f": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": true,
+            "style": "none",
+            "description_icon": "",
+            "title_1": "",
+            "icon_name_1": "",
+            "raw_content_1": "",
+            "title_2": "Details",
+            "icon_name_2": "",
+            "raw_content_2": "<p>{{ product.metafields.custom.details | metafield_tag }}<\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "bfcd32c8-b61d-446d-9a72-741b1d196c62": {
+          "type": "related_products",
+          "settings": {
+            "heading": "WORKS BEST WITH",
+            "heading_font_size": 14,
+            "heading_color": "#121212",
+            "hover_border_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "ef2cbe2e-0020-4215-acc9-2385e758c24f",
+        "description",
+        "bfcd32c8-b61d-446d-9a72-741b1d196c62"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "enable_video_looping": false,
+        "zoom_enable": false,
+        "width": "wrapper",
+        "padding_top": 120,
+        "padding_bottom": 70
+      }
+    },
+    "b068f109-8fd2-40e8-ba7d-a38dd192ec1c": {
+      "type": "section-accordion",
+      "disabled": true,
+      "blocks": {
+        "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-0": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.accordion_title.value }}",
+            "content": "<p>{{ product.metafields.custom.accordion_detail | metafield_tag }}<\/p>"
+          }
+        },
+        "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-1": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.accordion_title2.value }}",
+            "content": "<p>{{ product.metafields.custom.accordion_detail2 | metafield_tag }}<\/p>"
+          }
+        },
+        "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-2": {
+          "type": "text",
+          "settings": {
+            "title": "{{ product.metafields.custom.accordion_title3.value }}",
+            "content": "<p>{{ product.metafields.custom.accordion_detail3 | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-0",
+        "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-1",
+        "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "text_size": 1,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "judgeme_section_review_widget_9d8c": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_4b5605f2": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_4b5605f2"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "recent": {
+      "type": "section-recent-products",
+      "disabled": true,
+      "settings": {
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "You may also like",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3a5d9cae-81b7-4726-8e2f-75d6f5b513cb": {
+      "type": "section-row",
+      "custom_css": [
+        ".overlap__image {width: 50%;}",
+        ".overlap__item {margin: 0px !important; background: #d6d1ca;}",
+        ".overlap__content__wrapper {text-align: center; color: #000 !important; font-family: \"Neue Haas Unica\", sans-serif; font-weight: 400; font-size: 26px; padding: 0 20%;}",
+        ".image__fill {padding-top: 0%; height: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MD_shine4oz_heat_texture_9b71a54f-28fa-4e2c-bae4-56b0a06cbb5a.jpg",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "",
+        "text": "",
+        "logotext": "",
+        "logo": "shopify:\/\/shop_images\/Glamour_Small_38fa0672-7202-46af-bdc6-319f463e93ea.webp",
+        "text2": "<p>\"Maude's spot is a sleeker, less-intimidating version of your average G-spot vibrator.\"<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b068f109-8fd2-40e8-ba7d-a38dd192ec1c",
+    "judgeme_section_review_widget_9d8c",
+    "recent",
+    "related",
+    "3a5d9cae-81b7-4726-8e2f-75d6f5b513cb"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9": {
+      "type": "section-hero",
+      "blocks": {
+        "223bb24c-6321-4d8b-942c-a16ff804a7e9": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p><strong>as seen in<\/strong><\/p>",
+            "enable_caps": false,
+            "text_size": 5
+          }
+        },
+        "7caf03d9-dbe8-427a-9b6b-0577551cffcb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes.png",
+            "image_max_limit": 300,
+            "image_link": ""
+          }
+        },
+        "template--16217786679464__8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9-168573393335a8cd35-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"redefining the sexual wellness industry for modern consumers.\"<\/p>",
+            "text_size": 9,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "223bb24c-6321-4d8b-942c-a16ff804a7e9",
+        "7caf03d9-dbe8-427a-9b6b-0577551cffcb",
+        "template--16217786679464__8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9-168573393335a8cd35-1"
+      ],
+      "custom_css": [
+        ".hero__content {margin-left: 10%;}",
+        ".hero__kicker {font-family: \"Neue Haas Unica\"; font-size: 14px; text-transform: none; letter-spacing: 0;}",
+        ".standard__rte h4 {font-size: 24px; line-height: 1.4; font-family: \"Montserrat\"; max-width: 450px; font-weight: 500;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-14_at_5.13.48_PM.png",
+        "mobile_image": "shopify:\/\/shop_images\/AboutImage1.png",
+        "bg_position": "center-center",
+        "height": "use_pixels_800",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "align_text": "text-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0d57ee5d-c005-45f2-ae64-ca830d2db45e": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--16217786679464__0d57ee5d-c005-45f2-ae64-ca830d2db45e-16857342497b6f2722-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_12.06.35_PM.png",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        },
+        "template--16217786679464__0d57ee5d-c005-45f2-ae64-ca830d2db45e-16857342497b6f2722-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/web_SOULDESIGN1_r1_8171.jpg",
+            "bg_position": "center-center",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786679464__0d57ee5d-c005-45f2-ae64-ca830d2db45e-16857342497b6f2722-0",
+        "template--16217786679464__0d57ee5d-c005-45f2-ae64-ca830d2db45e-16857342497b6f2722-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "padding": false,
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "75f1b00b-5552-465e-9620-a658523834b6": {
+      "type": "section-icons",
+      "blocks": {
+        "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "quality.",
+            "text": "<p>We work with the best factories in the world to make safe and fuss-free essentials.<\/p>"
+          }
+        },
+        "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "simplicity.",
+            "text": "<p>We believe in universal design so we keep it pared down and simple, always.<\/p>"
+          }
+        },
+        "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-lock-shield",
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "inclusivity.",
+            "text": "<p>Intimacy is about people so we stand for inclusion for all, no matter your preference.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-0",
+        "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-1",
+        "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-2"
+      ],
+      "custom_css": [
+        ".wrapper--full,.icon__column {background: #262514;}",
+        ".icon__column__heading {color: white; font-size: 24px; line-height: 1.4; font-weight: 500;}",
+        "p {font-size: 14px; font-weight: 400; font-style: normal; font-stretch: normal; line-height: 1.31; letter-spacing: normal; color: white;}",
+        ".icon__column__icon {display: none;}"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "alignment": "text-center",
+        "grid": 3,
+        "width": "wrapper--full",
+        "padding_top": 120,
+        "padding_bottom": 120
+      }
+    },
+    "1559c4ac-09e5-48da-8747-10b9a5e1fb8b": {
+      "type": "section-reviews",
+      "blocks": {
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-0": {
+          "type": "review",
+          "settings": {
+            "title": "THIS!!",
+            "job": "M.S.",
+            "stars": 0,
+            "text": "<p>\"Unlike any other incense I’ve ever used. It’s my favorite because it doesn’t have that typical smoky, lingering incense smell that I’ve found in every other type of incense. It smells fresh and warm and the scent lasts for a while but doesn’t completely overtake the room.\"<\/p>"
+          }
+        },
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-1": {
+          "type": "review",
+          "settings": {
+            "title": "clean simple design",
+            "job": "Founder, Company",
+            "stars": 0,
+            "text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and relatable.  A great reviewer is a person who represents your target audience and can speak to concerns that might block your customers from buying.<\/p>"
+          }
+        },
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-2": {
+          "type": "review",
+          "settings": {
+            "title": "love the inclusivity",
+            "job": "Founder, Company",
+            "stars": 0,
+            "text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and relatable.  A great reviewer is a person who represents your target audience and can speak to concerns that might block your customers from buying.<\/p>"
+          }
+        },
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-3": {
+          "type": "review",
+          "settings": {
+            "title": "this brand is amazing",
+            "job": "Founder, Company",
+            "stars": 0,
+            "text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and relatable.  A great reviewer is a person who represents your target audience and can speak to concerns that might block your customers from buying.<\/p>"
+          }
+        },
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-4": {
+          "type": "review",
+          "settings": {
+            "title": "Testimonial name",
+            "job": "Founder, Company",
+            "stars": 0,
+            "text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and relatable.  A great reviewer is a person who represents your target audience and can speak to concerns that might block your customers from buying.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-0",
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-1",
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-2",
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-3",
+        "template--16217786679464__1559c4ac-09e5-48da-8747-10b9a5e1fb8b-1685736729c8c566eb-4"
+      ],
+      "custom_css": [
+        ".wrapper--full,.review__card__text {background: #f6f5f3; text-align: center;}",
+        ".slider-actions {display: none;}",
+        ".h3 {font-size: 11px !important; font-weight: 500; letter-spacing: 1px; color: #262514; text-transform: uppercase;}",
+        ".h5 {font-size: 20px; line-height: 1.2; color: #262514; font-weight: bold;}",
+        ".rte p {font-size: 20px; font-weight: 400; line-height: 1.2; color: #262514; padding: 12px 100px;}",
+        ".subtitle--decorated {font-size: 14px; font-weight: 400; text-transform: uppercase; margin-top: 2rem; color: #262514;}"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "description": "",
+        "grid": 1,
+        "background_color": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 90,
+        "padding_bottom": 90
+      }
+    },
+    "06144a93-bdd2-404a-b111-bcf18ceafc94": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important; text-transform: uppercase;}",
+        ".overlap__image {width: 35%;}",
+        ".overlap__text {padding-left: 12%;}",
+        ".overlap__content__wrapper {margin-right: 30%; font-size: 21px; font-weight: 400; line-height: 1.41; font-family: \"Neue Haas Unica\";}",
+        ".overlap__item {background: #262514; color: white; margin: 0px;}",
+        ".h3 {color: white; font-weight: 700; font-size: 24px;}",
+        ".image__fill {padding-top: 0%; height: 100%;}",
+        ".overlap__rte {font-size: 14px; font-weight: 700;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-05-12_at_6.02.04_PM.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "Eboni Whisenton, Founder \/CEO",
+        "text": "<p>Born in Milwaukee, WI and raised in California since age two, I am a true Cali girl. I found my love for everything design early on and by age nine I would draw complete towns on lined paper; tapping them together and making full-scale cities. Souldesign began as a concept as a teen from hearing the countless compliments people would give my mother about our small apartment and the style it embodied.  I felt like design was a warming soulful experience and held some intrinsic value that I didn’t quite understand at the time. I held the concept close to my heart and life continued.<br\/><br\/>Fast forward twenty years, what started out as a home staging and interior design company in 2015 SOULDESIGN1 evolved from a series of life events; the biggest being grief from the loss of a baby, caring for ailing and aging parents and the need for self-care in any space. The (1) in our name represents new beginnings, fresh starts, spiritual awakenings, and connecting design & wellness into one. By exploring the ancient use of aromatherapy and other wellness practices we were able to create a line of self-care and luxe decor pieces that provide those relaxing moments that everyone deserves to enjoy from the comfort of their homes.<\/p><p><\/p><p>–Eboni<\/p>",
+        "logotext": "",
+        "text2": "",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9",
+    "0d57ee5d-c005-45f2-ae64-ca830d2db45e",
+    "75f1b00b-5552-465e-9620-a658523834b6",
+    "1559c4ac-09e5-48da-8747-10b9a5e1fb8b",
+    "06144a93-bdd2-404a-b111-bcf18ceafc94"
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "blocks": {
+        "collections": {
+          "type": "heading",
+          "settings": {
+            "text_size": 5
+          }
+        },
+        "filters": {
+          "type": "text",
+          "settings": {
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "custom_css": [
+        ".collection-bg-image {width: 50%; margin-left: 50%;}",
+        ".hero__content {color: #fff; margin-left: 12%; text-align: left;}",
+        ".standard__heading {color: #fff; text-align: left; margin-bottom: 20px; font-size: 32px; line-height: 1.4; font-weight: 500; text-transform: lowercase;}",
+        ".standard__rte {color: #fff; text-align: left; margin-bottom: 12px; font-size: 14px; font-weight: 400; font-style: normal; font-stretch: normal; line-height: 1.31; font-family: \"Neue Haas Unica\"; letter-spacing: normal;}"
+      ],
+      "settings": {
+        "flex_align": "align--bottom-left",
+        "show_title_below": false,
+        "show_description_below": false,
+        "show_image": true,
+        "bg_position": "left-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 60,
+        "overlay_color": "#656565",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f4be4ce2-8485-46d7-8eb1-ca364d37c8a9": {
+      "type": "menu-collection",
+      "blocks": {
+        "8ea98a8d-242d-4eb6-bcf0-5eaa9157350e": {
+          "type": "collection",
+          "settings": {
+            "heading": "Heading",
+            "collection": "home-decor",
+            "image_ratio": "adapt"
+          }
+        },
+        "19b0a653-6a13-4be7-93b4-e59c5b7890d0": {
+          "type": "collection",
+          "settings": {
+            "heading": "Heading",
+            "collection": "souldesign1-top-picks",
+            "image_ratio": "adapt"
+          }
+        },
+        "65cb9f6d-aa77-489d-a700-6a331abdfd2b": {
+          "type": "collection",
+          "settings": {
+            "heading": "Heading",
+            "collection": "blankets",
+            "image_ratio": "adapt"
+          }
+        }
+      },
+      "block_order": [
+        "8ea98a8d-242d-4eb6-bcf0-5eaa9157350e",
+        "19b0a653-6a13-4be7-93b4-e59c5b7890d0",
+        "65cb9f6d-aa77-489d-a700-6a331abdfd2b"
+      ],
+      "settings": {
+        "heading": "",
+        "bg": "palette--light bg--neutral",
+        "pagination_count": 10,
+        "grid_setting_large": 3,
+        "grid_setting_medium": 2,
+        "grid_setting_small": 2,
+        "show_collection_nav": true,
+        "collection_custom_nav_list": "main-menu",
+        "align_nav": "inline-nav",
+        "collection_sorting": true,
+        "filters": true,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "main": {
+      "type": "collection",
+      "disabled": true,
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "pagination_count": 20,
+        "grid_setting_large": 3,
+        "grid_setting_medium": 3,
+        "grid_setting_small": 2,
+        "show_collection_nav": true,
+        "collection_custom_nav_list": "",
+        "align_nav": "inline-nav",
+        "collection_sorting": false,
+        "filters": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d16f92aa-7ee1-4441-bd02-fcf329407378": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {padding: 0px !important; background: #262613;}",
+        ".overlap__text {padding-left: 18%;}",
+        ".overlap__image {width: 50%;}",
+        ".overlap__content__wrapper {margin-right: 30%; font-size: 21px; font-weight: 400; line-height: 1.41; font-family: \"Neue Haas Unica\";}",
+        ".overlap__item {background: #262613; color: white; margin: 0px; border-radius: 0px !important;}",
+        ".h3 {color: white; font-size: 10px; font-weight: 500; margin-bottom: 24px; letter-spacing: 2px; font-family: maison_neue_medium_extended;}",
+        ".image__fill {height: 100%;}",
+        "strong {color: white;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/condomsfloor_600x_28b6d42c-dd86-4b6d-ac96-b3172befbc45.webp",
+        "bg_position": "center-center",
+        "aspect_ratio": 1,
+        "layout": "left",
+        "title": "AS SEEN IN",
+        "text": "<h1><strong>FORBES<\/strong><\/h1><p>“Redefining the sex essentials industry for modern consumers.”<\/p>",
+        "logotext": "",
+        "text2": "",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "754b651a-ff54-4152-b0c5-5b1812d51f57": {
+      "type": "text-with-accordion",
+      "blocks": {
+        "9e8dfda1-3fea-4dbb-a5f7-bfa3437babfd": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "bfe10be7-f7ac-4b1b-887f-0a7a90fac6ec": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "ebcc0687-ac51-4a59-9190-2dd1c9cbd03b": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9e8dfda1-3fea-4dbb-a5f7-bfa3437babfd",
+        "bfe10be7-f7ac-4b1b-887f-0a7a90fac6ec",
+        "ebcc0687-ac51-4a59-9190-2dd1c9cbd03b"
+      ],
+      "custom_css": [
+        ".wrapper--full {display: flex; align-items: center; background: #b2a9a0; padding: 0px;}",
+        ".overlap {width: 35%;}",
+        ".accord {width: 65%;}",
+        ".accordion__wrapper {width: 70%; margin: 0 auto;}",
+        ".overlap__image {margin: 0px;}",
+        ".accordion__title {padding: 24px 0; color: #fff; font-family: \"Neue Haas Unica\"; font-weight: 500; font-size: 14px;}",
+        ".rte p {text-align: left; margin-bottom: 12px; font-size: 14px; font-weight: 400; line-height: 1.31; color: #fff; width: 75%;}",
+        ".accordion__title:after {border-color: white;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Essentials_600x_802a9c0d-2e5a-4a13-a9ca-a55965b29783.webp",
+        "accordiontext": "essentials 101.",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.1,
+        "layout": "right",
+        "title": "",
+        "text": "",
+        "logotext": "",
+        "text2": "",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn",
+        "button_color": "btn--neutral",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "68587fe8-7bed-4e9f-8652-cee5e281a639": {
+      "type": "section-blog",
+      "custom_css": [
+        ".palette--light {background: #262615;}"
+      ],
+      "settings": {
+        "title": "from the maudern.",
+        "index_blog": "news",
+        "limit": 6,
+        "grid": 4,
+        "aspect_ratio": 1.3,
+        "show_meta": true,
+        "show_excerpt": true,
+        "show_tags": true,
+        "show_view_all": false,
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "f4be4ce2-8485-46d7-8eb1-ca364d37c8a9",
+    "main",
+    "d16f92aa-7ee1-4441-bd02-fcf329407378",
+    "754b651a-ff54-4152-b0c5-5b1812d51f57",
+    "68587fe8-7bed-4e9f-8652-cee5e281a639"
+  ]
+}

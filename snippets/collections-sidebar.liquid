@@ -1,0 +1,126 @@
+<!-- /snippets/collections-sidebar.liquid -->
+
+{% comment %}
+    Renders collection sidebar filter content
+
+    Accepts:
+    - section: {Object} currenct section
+    - collection: {Object} currenct collection
+
+    Usage:
+    {%- render 'collections-sidebar', section: section, collection: collection -%}
+{% endcomment %}
+
+{%- assign collection_handle = collection.handle | default: 'all ' -%}
+
+{%- if section.settings.collection_tag_nav -%}
+
+  {%- assign tags_underscore = false -%}
+  {%- for tag in collection.all_tags -%}
+    {% if tag contains '_' %}
+      {%- assign tags_underscore = true -%}
+    {% endif %}
+  {%- endfor -%}
+
+  {%- if section.blocks.size > 0 -%}
+
+    {%- capture current_tags_url -%}
+      {%- for tag in current_tags -%}{{ tag | handleize }}+{%- endfor -%}
+    {%- endcapture -%}
+    {%- if current_tags_url == '+' -%}{%- assign current_tags_url = '' -%}{%- endif -%}
+    {% assign current_tags_compare = current_tags_url | prepend: '+' %}
+
+    {%- capture shop_tags -%}
+      {%- for tag in collection.tags -%}{{ tag | handleize }}+{%- endfor -%}
+    {%- endcapture -%}
+    {% assign shop_tags_compare = shop_tags | prepend: '+' %}
+
+
+    {%- if collection.all_tags.size > 0 -%}
+
+      {%- for block in section.blocks -%}
+        {%- assign settings_tag_array = block.settings.group_tags | split: ',' -%}
+        <div class="filter__title h6--body">{{ block.settings.title }}</div>
+        <div class="collection-filters">
+          {%- for settings_tag in settings_tag_array -%}
+            {% comment %} Normalize merchant settings input {% endcomment %}
+            {%- assign settings_tag_handle = settings_tag | handleize -%}
+            {%- assign settings_tag_handle_plus = settings_tag | handleize | append: '+' | prepend: '+' -%}
+
+            {%- assign link_style = 'link--disable' -%}
+
+            {% comment %} If tag is currently active setup URLs to remove tag {% endcomment %}
+            {%- if current_tags_compare contains settings_tag_handle_plus -%}
+              {%- assign link_style = 'link--remove' -%}
+              {%- assign removed_tag_array = '' -%}
+              {%- for product_tag in current_tags -%}
+                {%- assign product_tag_handle = product_tag | handleize -%}
+                {%- unless settings_tag_handle == product_tag_handle -%}
+                  {%- assign removed_tag_array = removed_tag_array | append: product_tag_handle | append: '[!ヽ(´ー｀)/!]' -%}
+                {%- endunless -%}
+              {%- endfor -%}
+              {%- assign removed_tag_array = removed_tag_array | split: '[!ヽ(´ー｀)/!]' -%}
+              {%- capture removed_tag_url -%}
+                {%- for tag in removed_tag_array -%}{{ tag | handleize }}{%- unless forloop.last -%}+{%- endunless -%}{%- endfor -%}
+              {%- endcapture -%}
+
+              <a href="{{ routes.collections_url }}/{{ collection_handle }}/{{ removed_tag_url }}" title="✕ {{ settings_tag }}" class="{{ link_style }}">{{ settings_tag }}{% render 'icon-x-small' %}</a>
+            {%- else -%}
+              {% if shop_tags_compare contains settings_tag_handle_plus %}
+                {%- assign link_style = 'link--add' -%}
+              {%- endif -%}
+              <a href="{{ routes.collections_url }}/{{ collection_handle }}/{{ current_tags_url }}{{ settings_tag_handle }}" title="+ {{settings_tag}}" class="{{ link_style }}">{{ settings_tag }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
+
+  {%- elsif tags_underscore -%}
+    {% comment %}
+      Use the old underscore method
+    {% endcomment %}
+    {% assign all_groups = '' %}
+    {% for tag in collection.all_tags %}
+      {% if tag contains '_' %}
+        {% capture all_groups %}{% unless all_groups == blank %}{{ all_groups }}|{% endunless %}{{ tag | split: '_' | first }}{% endcapture %}
+      {% endif %}
+    {% endfor %}
+    {% assign group_array = all_groups | split: '|' | uniq %}
+
+    {%- for group_object in group_array -%}
+      <div class="filter__title h6--body">{{ group_object | replace: "-", " " }}</div>
+      <div class="collection-filters">
+        {%- for tag in collection.all_tags -%}
+          {%- assign group = tag | split: '_' | first -%}
+          {%- if group != tag and group_object == group -%}
+            {%- if current_tags contains tag -%}
+              {{ tag | remove_first: group_object | remove_first: '_' | replace: "-", " " | link_to_remove_tag: tag | replace: "title=", "class='link--remove' title=" | replace: "</a>", "<span class='tiny-x'>⨯</span></a>" }}
+            {%- else -%}
+              {{ tag | remove_first: group_object | remove_first: '_' | replace: "-", " " | link_to_add_tag: tag | replace: "title=", "class='link--add' title=" }}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endfor -%}
+  {%- else -%}
+    {% comment %}
+      Just a basic list of tags
+    {% endcomment %}
+    {%- if collection.all_tags.size > 0 -%}
+      <a href="{{ routes.collections_url }}/{{ collection_handle }}/" class="link--clear">{{ 'collections.sidebar.all_tags' | t }}</a>
+      {%- for tag in collection.all_tags -%}
+        {%- if current_tags contains tag -%}
+            {{ tag | link_to_remove_tag: tag | replace: 'title=', 'class="link--remove" title=' }}
+        {%- else -%}
+            {% comment %}
+              Use link_to_add_tag if you want to allow filtering
+              by multiple tags
+            {% endcomment %}
+            {{ tag | link_to_add_tag: tag | replace: 'title=', 'class="link--add" title=' }}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
+
+{%- endif -%}

@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d": {
+      "type": "section-hero",
+      "disabled": true,
+      "blocks": {
+        "871cce47-8899-4091-92d1-6eeba60209d6": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Pass Through<\/p>",
+            "enable_caps": false,
+            "text_size": 2
+          }
+        },
+        "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Contact us<\/strong><\/p>",
+            "text_size": 10
+          }
+        },
+        "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This area is used to describe your store<\/p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "871cce47-8899-4091-92d1-6eeba60209d6",
+        "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-0",
+        "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-1"
+      ],
+      "custom_css": [
+        ".hero__content {margin-left: 10%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_195.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "align_text": "text-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "contact": {
+      "type": "section-contact",
+      "blocks": {
+        "form_element_1": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "form_element_2": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "cc36eac0-1f6d-4c21-8eae-f8741046dacf": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number"
+          }
+        },
+        "form_element_3": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        },
+        "accordion_1": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Back Orders",
+            "raw_content": "<p>Products are stocked up on a regular basis.<\/p><p>If a product you want is out of stock, please feel free to shoot us a message with the product you are looking for in the subject line.  We will send you a notifications when they are back in stock!<\/p>"
+          }
+        },
+        "accordion_5": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping",
+            "raw_content": "<p>We pride ourselves on getting your items to you as quickly as possible. Our standard delivery usually takes between 5-7 business days. However please note that due to transit delays caused by the pandemic, some orders may arrive later than usual.<\/p><p>If your order hasn't arrived after two weeks, please contact us and we will look into the matter.<\/p>"
+          }
+        },
+        "accordion_2": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Returns",
+            "raw_content": "<p>Our customers are our number one priority and we offer full refunds for unopened unused products. <\/p><p>To make your shopping experience a memorable one, we carefully inspect all items prior to departing our facility. <\/p><p>Please note that customers will be responsible for shipping costs and pieces from the Dope Sh*t Collection can not be returned.<\/p><p>Returns must be in the original packaging undamaged with proof of purchase.<\/p>"
+          }
+        },
+        "accordion_3": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Damaged Items",
+            "raw_content": "<p>Life happens! If your items arrived damaged, please take photos of the packaging\/products and send them to our customer care team at hello@souldesign1.com within 10 days from delivery for immediate assistance. <\/p>"
+          }
+        },
+        "accordion_4": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "Payment security",
+            "raw_content": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "form_element_1",
+        "form_element_2",
+        "cc36eac0-1f6d-4c21-8eae-f8741046dacf",
+        "form_element_3",
+        "accordion_1",
+        "accordion_5",
+        "accordion_2",
+        "accordion_3",
+        "accordion_4"
+      ],
+      "custom_css": [
+        ".h4--body {text-align: center; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "Contact Us",
+        "accordion_title": "Q & A",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 48
+      }
+    },
+    "default-newsletter": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "settings": {
+        "title": "Let's stay connected!",
+        "richtext": "<p>Subscribe for special offers, free giveaways and limited Dope Sh*t releases. We promise to send emails you will love.<\/p>",
+        "success": "Success! Use code SD12022 to save 10% on your next purchase.",
+        "text_color": "text--primary",
+        "color_bg": "palette--dark bg--invert--accent",
+        "button_color": "btn--black",
+        "button_style": "btn",
+        "width": "wrapper",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "9864fe3f-f231-43a4-8fa2-5f382ba4eb38": {
+      "type": "section-text",
+      "blocks": {
+        "template--16217786515624__9864fe3f-f231-43a4-8fa2-5f382ba4eb38-16858242204a633155-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>Get in Touch<\/h3>",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786515624__9864fe3f-f231-43a4-8fa2-5f382ba4eb38-16858242204a633155-1"
+      ],
+      "custom_css": [
+        ".palette--light {background: #f6f5f3;}",
+        "h3 {line-height: 1.4; color: #52493f;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17166592-f0dc-40fe-9a5a-248f38abd26a": {
+      "type": "section-timeline-tree",
+      "blocks": {
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-0": {
+          "type": "episode",
+          "settings": {
+            "title": "",
+            "date": "For questions about your order.",
+            "story": "",
+            "link_text": "order@souldesign1",
+            "link": "shopify:\/\/pages\/mission"
+          }
+        },
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-1": {
+          "type": "episode",
+          "settings": {
+            "title": "",
+            "date": "For press inquiries.",
+            "story": "",
+            "link_text": "press@souldesign1",
+            "link": "#"
+          }
+        },
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-2": {
+          "type": "episode",
+          "settings": {
+            "title": "",
+            "date": "For wholesale inquiries.",
+            "story": "",
+            "link_text": "wholesale@souldesign1",
+            "link": "#"
+          }
+        },
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-3": {
+          "type": "episode",
+          "settings": {
+            "title": "",
+            "date": "For brands interested in partnerships.",
+            "story": "",
+            "link_text": "partnerships@souldesign1",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-0",
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-1",
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-2",
+        "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-3"
+      ],
+      "custom_css": [
+        ".timeline__placemark {display: none;}",
+        ".timeline__wrapper {margin-left: 100px;}",
+        ".border-bottom-link {border-bottom: 1px solid #262613;}"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d",
+    "contact",
+    "default-newsletter",
+    "9864fe3f-f231-43a4-8fa2-5f382ba4eb38",
+    "17166592-f0dc-40fe-9a5a-248f38abd26a"
+  ]
+}

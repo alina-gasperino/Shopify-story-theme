@@ -1,0 +1,497 @@
+{
+  "sections": {
+    "73ceb7e4-8569-4dcb-b8df-592260efaf81": {
+      "type": "section-video",
+      "blocks": {
+        "c718cb81-7c9b-4fd3-90e2-a4901427bbe5": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>modern intimacy®<\/p>",
+            "enable_caps": false,
+            "text_size": 4
+          }
+        },
+        "04edb2da-2c60-4a8d-906a-000cdfe884f9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>spring showers.<\/strong><\/p>",
+            "text_size": 13
+          }
+        },
+        "b378b7a7-fafe-4a76-8ab2-a13145ecc788": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Go beyond the bedroom with made-to-share essentials.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "c2ec3023-ec99-46cc-86bc-04c269ef21b0": {
+          "type": "button",
+          "settings": {
+            "button_text": "explore all",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_size": "",
+            "button_style": "hero__btn btn--outline",
+            "button_color": "btn--black"
+          }
+        }
+      },
+      "block_order": [
+        "c718cb81-7c9b-4fd3-90e2-a4901427bbe5",
+        "04edb2da-2c60-4a8d-906a-000cdfe884f9",
+        "b378b7a7-fafe-4a76-8ab2-a13145ecc788",
+        "c2ec3023-ec99-46cc-86bc-04c269ef21b0"
+      ],
+      "custom_css": [
+        ".hero__content {margin-left: 13%;}",
+        ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 16px; line-height: normal; border-radius: 36px; padding: 12px 56px; color: #262514; border: 1px solid white; margin-top: 20px; background-color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}",
+        ".hero__btn:hover {background: transparent; color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}"
+      ],
+      "settings": {
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d6b906e2edae4fc88ac08aae4101908d.mp4",
+        "object_position": "center-center",
+        "bg_position": "center-center",
+        "height": "use_pixels_650",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "default-banner": {
+      "type": "section-hero",
+      "disabled": true,
+      "blocks": {
+        "bb2b37d7-2d1c-4d31-887b-3d2a3067ff83": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>modern intimacy<\/p>",
+            "enable_caps": false,
+            "text_size": 4
+          }
+        },
+        "banner-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>spring showers.<\/strong><\/p>",
+            "text_size": 13
+          }
+        },
+        "banner-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Go beyond the bedroom with made-to-share essentials.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "banner-button": {
+          "type": "button",
+          "settings": {
+            "button_text": "explore all",
+            "button_url": "shopify:\/\/collections\/shop-all",
+            "button_size": "",
+            "button_style": "hero__btn btn--outline",
+            "button_color": "btn--black"
+          }
+        }
+      },
+      "block_order": [
+        "bb2b37d7-2d1c-4d31-887b-3d2a3067ff83",
+        "banner-heading",
+        "banner-text",
+        "banner-button"
+      ],
+      "custom_css": [
+        ".hero__content {margin-left: 13%;}",
+        ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 16px; line-height: normal; border-radius: 36px; padding: 12px 56px; color: #262514; border: 1px solid white; margin-top: 20px; background-color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}",
+        ".hero__btn:hover {background: transparent; color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/maude_banner.png",
+        "mobile_image": "shopify:\/\/shop_images\/Heat-Mobile-Homepage_x800_50e103d9-14df-4407-8a2c-ba6b2daf5b06.webp",
+        "bg_position": "center-center",
+        "height": "use_pixels_650",
+        "overlay_opacity": 0,
+        "overlay_color": "#262514",
+        "flex_align": "align--middle-left",
+        "align_text": "text-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ac5f8410-1441-4ea5-95ea-0e730befa529": {
+      "type": "section-logos",
+      "blocks": {
+        "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue.png",
+            "link": "#",
+            "new_tab": true
+          }
+        },
+        "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gq.png",
+            "link": "#",
+            "new_tab": true
+          }
+        },
+        "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instyle.png",
+            "link": "#",
+            "new_tab": true
+          }
+        },
+        "296fb47d-7eee-4095-b246-60b3ec654cf6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/strategist.png",
+            "link": "",
+            "new_tab": true
+          }
+        },
+        "b24182ff-773f-46d9-8ae0-c51d86a64735": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/men_health.png",
+            "link": "",
+            "new_tab": true
+          }
+        },
+        "332fe633-3ba1-4da1-aae6-4c82ee9f384c": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fast_company.png",
+            "link": "",
+            "new_tab": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-0",
+        "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-1",
+        "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-2",
+        "296fb47d-7eee-4095-b246-60b3ec654cf6",
+        "b24182ff-773f-46d9-8ae0-c51d86a64735",
+        "332fe633-3ba1-4da1-aae6-4c82ee9f384c"
+      ],
+      "custom_css": [
+        ".h3 {font-weight: 400; font-size: 16px; color: #262514; text-transform: uppercase !important; letter-spacing: 0.75px !important;}",
+        ".logo-bar {margin: 0px;}"
+      ],
+      "settings": {
+        "title": "featured in",
+        "bg": "palette--light bg--accent",
+        "alignment": "text-center",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "b22654b7-5011-49df-80e3-ad4195f4d205": {
+      "type": "collection-custom-tabs",
+      "blocks": {
+        "e7569e07-311b-4b68-ad0a-10409a228e2b": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "best sellers",
+            "title": "Best seller",
+            "description": "<p>Luxurious, high quality sensory<br\/>incense products crafted for the<br\/>ultimate self care experience<\/p>",
+            "collection": "flowio-bestseller",
+            "btntext": "bestseller",
+            "btnurl": "shopify:\/\/collections\/flowio-bestseller"
+          }
+        },
+        "424f00ab-ed5a-4c42-8d3a-26788bd0585b": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "all",
+            "title": "all",
+            "description": "<p>Use this area to describe the collection.<\/p>",
+            "collection": "shop-all",
+            "btntext": "Shop All",
+            "btnurl": "shopify:\/\/collections\/all"
+          }
+        },
+        "0d79b10c-7226-4ad6-8c0b-59eae1a398ee": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "scents + wellness",
+            "title": "scents + wellness",
+            "description": "<p>Use this area to describe the collection.<\/p>",
+            "collection": "home-fragrance-wellness",
+            "btntext": "scents + wellness",
+            "btnurl": "shopify:\/\/collections\/home-fragrance-wellness"
+          }
+        },
+        "template--16217786450088__b22654b7-5011-49df-80e3-ad4195f4d205-16864156815f6d442d-0": {
+          "type": "tab",
+          "settings": {
+            "tab_heading": "decor",
+            "title": "decor",
+            "description": "<p>Luxurious, high quality sensory<br\/>incense products crafted for the<br\/>ultimate self care experience.<\/p>",
+            "collection": "home-decor",
+            "btntext": "decor",
+            "btnurl": "shopify:\/\/collections\/home-decor"
+          }
+        }
+      },
+      "block_order": [
+        "e7569e07-311b-4b68-ad0a-10409a228e2b",
+        "424f00ab-ed5a-4c42-8d3a-26788bd0585b",
+        "0d79b10c-7226-4ad6-8c0b-59eae1a398ee",
+        "template--16217786450088__b22654b7-5011-49df-80e3-ad4195f4d205-16864156815f6d442d-0"
+      ],
+      "custom_css": [
+        ".h3 {font-size: 28px; line-height: 1.4; display: inline-block; font-weight: 500; font-family: \"Montserrat\"; color: #262514; text-transform: lowercase;}",
+        ".index__collection__subtitle p {margin: 0.5rem 0 0; font-size: 14px; color: #262514; font-weight: 400; line-height: 1.31; letter-spacing: normal; font-family: \"Neue Haas Unica\";}",
+        ".slick-track {display: flex; flex-wrap: nowrap; justify-content: start; align-items: center;}"
+      ],
+      "settings": {
+        "grid": 3,
+        "limit": 9,
+        "enable_slider": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_view_all": false,
+        "width": "wrapper",
+        "padding_top": 180,
+        "padding_bottom": 100
+      }
+    },
+    "1397a495-ff94-4e11-b49a-92b404b39c5f": {
+      "type": "section-row",
+      "custom_css": [
+        ".wrapper--full {background: #262514;}",
+        ".overlap__image {padding-left: 30%; padding: 0px 40px 0px 10%; width: 40%;}",
+        ".overlap__text {width: 60%;}",
+        ".overlap__item {background: #262514;}",
+        "h3 {color: white; font-size: 24px;}",
+        ".overlap__content__wrapper {margin-left: 25%; color: white;}",
+        ".image__fill {padding-top: 75% !important; height: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/story.png",
+        "bg_position": "center-center",
+        "aspect_ratio": 1.3,
+        "layout": "right",
+        "title": "",
+        "text": "<p>modern intimacy<\/p>",
+        "logotext": "",
+        "text2": "<p>As a modern sexual wellness company built on quality, simplicity and inclusivity, we’re on a mission to make intimacy better—for all people.<\/p>",
+        "color_text_bg": "palette--light bg--accent",
+        "button_label": "Our Story",
+        "button_link": "shopify:\/\/pages\/about-us",
+        "button_style": "btn",
+        "button_color": "btn--black",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper--full",
+        "padding_top": 62,
+        "padding_bottom": 60
+      }
+    },
+    "d87bf21e-6e90-4a85-9b03-53ddf0bad4a8": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "0942a1f2-384c-49a8-ae63-ab1c2cc5f6dd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-fragrance-wellness",
+            "text": "<h5>SCENTS<\/h5>",
+            "collection-desc": "<p>Uplifting invigorating scents perfect for any space<\/p>",
+            "bg_position": "center-center",
+            "link-text": "shop scent + wellness",
+            "link_override": "shopify:\/\/collections\/home-fragrance-wellness",
+            "content_color": "#333333",
+            "content_bg": "#f7f7f7"
+          }
+        },
+        "template--16217786450088__d87bf21e-6e90-4a85-9b03-53ddf0bad4a8-168599536493383257-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundles-kits",
+            "text": "<h5>BUNDLES<\/h5>",
+            "collection-desc": "<p>Mix and match the perfect pair. Bundle and save for yourself or bundle the perfect gift for someone special!<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_12.06.35_PM.png",
+            "bg_position": "center-center",
+            "link-text": "Shop bundles + kits",
+            "link_override": "shopify:\/\/collections\/bundles-kits",
+            "content_color": "#333333",
+            "content_bg": "#f7f7f7"
+          }
+        },
+        "template--16217786450088__d87bf21e-6e90-4a85-9b03-53ddf0bad4a8-168599536493383257-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-decor",
+            "text": "<h5>DECOR<\/h5>",
+            "collection-desc": "<p>Unique home decor pieces designed to give your home that luxe feel and elevated style.<\/p>",
+            "collection_image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_12.33.50_PM.png",
+            "bg_position": "center-center",
+            "link-text": "shop decor",
+            "link_override": "shopify:\/\/collections\/home-decor",
+            "content_color": "#333333",
+            "content_bg": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "0942a1f2-384c-49a8-ae63-ab1c2cc5f6dd",
+        "template--16217786450088__d87bf21e-6e90-4a85-9b03-53ddf0bad4a8-168599536493383257-1",
+        "template--16217786450088__d87bf21e-6e90-4a85-9b03-53ddf0bad4a8-168599536493383257-0"
+      ],
+      "custom_css": [
+        ".grid__item {padding: 0px;}",
+        ".collection-grid-item__title h5 {font-size: 20px; line-height: 1.4; color: white; text-transform: lowercase;}",
+        ".grid :nth-child(3) .lazyloaded {background-position: bottom center !important;}",
+        "p {font-size: 14px; line-height: 1.31; color: #fff; text-align: left; transform: translateY(16px); transition: opacity 0.5s ease-in-out, transform 0.75s ease-in-out; max-width: 300px; opacity: 0;}",
+        ".image__fill {padding-top: 75% !important;}",
+        ".cstm-col-btn {padding: 8px 32px; color: #262514;}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid": 3,
+        "color_bg": "palette--light bg--neutral",
+        "enable_slider": false,
+        "aspect_ratio": 1,
+        "place_text": "flex-column-reverse",
+        "align_text": "text-center",
+        "use_font": "font-heading",
+        "width": "wrapper--full",
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "74fd3bc7-fd90-42f0-b3f3-9e780320a184": {
+      "type": "section-hero",
+      "disabled": true,
+      "blocks": {
+        "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1><strong>find us.<\/strong><\/h1>",
+            "text_size": 15
+          }
+        },
+        "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From our essentials to beyond, find us across these retailers and countries near you.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-2": {
+          "type": "button",
+          "settings": {
+            "button_text": "stockists",
+            "button_url": "",
+            "button_size": "btn--large",
+            "button_style": "hero__btn btn--outline",
+            "button_color": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-0",
+        "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-1",
+        "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-2"
+      ],
+      "custom_css": [
+        ".hero__content {margin-left: 7%;}",
+        ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 14px; line-height: normal; border-radius: 36px; padding: 5px 28px 6px; border: 1px solid white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}",
+        ".hero__btn:hover {background: white; color: black; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FindUs_2000x_1.jpg",
+        "bg_position": "center-center",
+        "height": "use_pixels_500",
+        "overlay_opacity": 5,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "align_text": "text-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "972b4ee6-6acc-4768-965b-04f91029781c": {
+      "type": "custom-articles",
+      "blocks": {
+        "d009e363-03b9-4704-95f6-351bda5795d4": {
+          "type": "article",
+          "settings": {
+            "article-text": "",
+            "link": "#",
+            "article-image": "shopify:\/\/shop_images\/HomePageImage6.png"
+          }
+        },
+        "58b6e825-134b-4e09-99e7-840b09917f18": {
+          "type": "article",
+          "settings": {
+            "article-text": "",
+            "link": "#",
+            "article-image": "shopify:\/\/shop_images\/HomePageImage5.png"
+          }
+        },
+        "663b893c-43a0-419d-aa82-b78b7f3fce41": {
+          "type": "article",
+          "settings": {
+            "article-text": "Testing Text Testing text",
+            "link": "",
+            "article-image": "shopify:\/\/shop_images\/HomePageImage1.png"
+          }
+        },
+        "79b137ee-ba51-447f-848f-51f6fbec82db": {
+          "type": "article",
+          "settings": {
+            "article-text": "Testing Text Testing text",
+            "link": "#",
+            "article-image": "shopify:\/\/shop_images\/HomePageImage7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d009e363-03b9-4704-95f6-351bda5795d4",
+        "58b6e825-134b-4e09-99e7-840b09917f18",
+        "663b893c-43a0-419d-aa82-b78b7f3fce41",
+        "79b137ee-ba51-447f-848f-51f6fbec82db"
+      ],
+      "custom_css": [
+        "p {margin: 2rem auto; max-width: 500px; text-align: center; color: #fff !important; pointer-events: none; font-size: 14px; font-weight: 400; font-style: normal; font-stretch: normal; line-height: 1.31; letter-spacing: normal;}"
+      ],
+      "settings": {
+        "heading1": "",
+        "heading2": "the maudern.",
+        "desc1": "<p>weekly dispatch on science, history, and health, plus the people, culture, and design that make sex modern.<\/p>",
+        "linktext1": "view articles",
+        "link1": "#"
+      }
+    }
+  },
+  "order": [
+    "73ceb7e4-8569-4dcb-b8df-592260efaf81",
+    "default-banner",
+    "ac5f8410-1441-4ea5-95ea-0e730befa529",
+    "b22654b7-5011-49df-80e3-ad4195f4d205",
+    "1397a495-ff94-4e11-b49a-92b404b39c5f",
+    "d87bf21e-6e90-4a85-9b03-53ddf0bad4a8",
+    "74fd3bc7-fd90-42f0-b3f3-9e780320a184",
+    "972b4ee6-6acc-4768-965b-04f91029781c"
+  ]
+}

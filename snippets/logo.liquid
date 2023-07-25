@@ -1,0 +1,30 @@
+<!-- /snippets/logo.liquid -->
+
+{% if template.name == 'index' %}
+  <h1>
+{% else %}
+  <div class="h1">
+{% endif %}
+    <a href="{{ routes.root_url }}" class="site-logo{% if section.settings.logo != blank %} header__logo__link{% endif %}">
+      {% if section.settings.logo != blank %}
+        {% capture image_size %}{{ section.settings.logo_max_width }}x{% endcapture %}
+        <img src="{{ section.settings.logo | img_url: image_size }}"
+             class="logo--color"
+             srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+             alt="{{ section.settings.logo.alt | default: shop.name }}">
+      {% else %}
+        <div class="logo--text">{{ shop.name }}</div>
+      {% endif %}
+      {% if section.settings.transparent and section.settings.transparent_logo != blank and template.name == "index" %}
+        {% capture image_size %}{{ section.settings.logo_max_width }}x{% endcapture %}
+        <img src="{{ section.settings.transparent_logo | img_url: image_size }}"
+             class="logo--transparent"
+             srcset="{{ section.settings.transparent_logo | img_url: image_size }} 1x, {{ section.settings.transparent_logo | img_url: image_size, scale: 2 }} 2x"
+             alt="{{ section.settings.transparent_logo.alt | default: shop.name }}">
+      {% endif %}
+    </a>
+{% if template.name == 'index' %}
+  </h1>
+{% else %}
+  </div>
+{% endif %}

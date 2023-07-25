@@ -1,0 +1,30 @@
+<!-- snippets/onboarding-empty-collection.liquid -->
+
+<div class="grid__item">
+  <div class="helper-section">
+    <div class="helper-note">
+      <span class="helper-icon"></span>
+      <h3>{{ 'collections.onboarding.modal_title' | t }}</h3>
+      <p>{{ 'collections.onboarding.no_products_html' | t }}</p>
+      <p><a href="/admin/products/new" class="admin-btn-primary">{{ 'collections.onboarding.add_product' | t }}</a></p>
+    </div>
+
+    <div class="grid--uniform helper-content">
+      {% for i in (1..8) %}
+        <div class="grid__item one-half large--one-quarter">
+          <a class="product-grid-item" href="/admin/products">
+            <span>
+              {% capture imgCount %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+              {% capture svg_name %}product-{{ imgCount }}{% endcapture %}
+              {{ svg_name | placeholder_svg_tag: 'placeholder-svg' }}
+            </span>
+            <div class="grid__caption hover">
+              <p class="name_wrapper"><span>{{ 'homepage.onboarding.product_title' | t }}</span></p>
+              <p class="price_wrapper">$19.99</p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

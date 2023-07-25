@@ -1,0 +1,95 @@
+<section class="maudern-promo">
+    <div class="maudern-promo__articles">
+      {% for block in section.blocks %}
+        <article class="maudern-promo__article ">
+            <a class="maudern-promo__article-link AspectRatio" href="{{ block.settings.link }}" style="--aspect-ratio: 3/4;">
+                
+                  <img class="maudern-promo__article-image ProductItem__Image Image--fadeIn lazyautosizes Image--lazyLoaded" src="{{ block.settings.article-image | img_url: 'x700'}}"/>
+                  <h6 class="maudern-promo__article-title">
+                      {{ block.settings.article-text }}
+                  </h6>
+            </a>
+        </article>
+      {% endfor %}
+    </div>
+    <div class="maudern-promo__recent">
+        <div class="maudern-promo__header">
+            <h2 class="maudern-promo__title maudern-promo__title--top">{{ section.settings.heading1 }}</h2>
+            <h2 class="maudern-promo__title maudern-promo__title--bottom">{{ section.settings.heading2 }}</h2>
+            
+            <p class="maudern-promo__lead-in paragraph">
+                {{ section.settings.desc1 }}
+            </p>
+            <a href="{{ section.settings.link1 }}" class="maudern-promo__cta Button Button--primary">
+                {{ section.settings.linktext1 }}
+            </a>
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Custom Articles",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading1",
+        "label": "Insert Heading"
+      },
+      {
+        "type": "text",
+        "id": "heading2",
+        "label": "Insert Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "desc1",
+        "label": "Insert Description"
+      },
+      {
+        "type": "text",
+        "id": "linktext1",
+        "label": "Insert Link text"
+      },
+      {
+        "type": "url",
+        "id": "link1",
+        "label": "Insert btn link"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "article",
+        "type": "article",
+        "settings": [
+           {
+            "type": "text",
+            "id": "article-text",
+            "label": "Insert article text"
+            },
+            {
+              "type": "url",
+              "id": "link",
+              "label": "Insert btn link"
+            },
+            {
+              "type": "image_picker",
+              "id": "article-image",
+              "label": "article image"
+            }
+        ]
+      }      
+    ],
+    "presets": [
+      {
+        "name": "Custom Articles",
+        "category": "custom"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,101 @@
+.header__dropdown__image img {
+    height: 250px;
+    width: 100%;
+}
+.popup_content a {
+    width: 100%;
+    border: solid 1px #fff;
+    border-radius: 50px;
+    background: #fff;
+    color: #262514;
+}
+.popup.popup--center .popup__inner {
+    padding: 0;
+    max-width: 750px;
+}
+.popup.popup--center .popup_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #262514;
+}
+.popup_content {
+    padding: 0 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.popup .popup__title {
+    font-size: 24px;
+}
+.radio__button label {
+    padding: 4px 14px;
+    border-radius: 14px;
+}
+.radio__button input:checked~label {
+    background-color: #262514;
+    color: #fff;
+}
+.rc-subscription-details {
+    display: none !important;
+}
+.rc-template__button-group {
+    display: flex;
+    width: 100%;
+    border: solid 1px #262514;
+    justify-content: space-between;
+    border-radius: 36px;
+}
+label.rc-radio.onetime-radio.p-2 {
+    display: none;
+}
+.rc-template__button-group .rc-button-group__options .rc-radio {
+    border-radius: 36px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border: none !important;
+}
+.discount-label {
+    font-size: 14px;
+    margin-right: 8px;
+}
+.price-label.mt-1 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin-top: 0 !important;
+}
+.rc-button-group__options {
+    width: 100%;
+}
+.rc-selling-plans {
+    width: 55%;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span.rc-radio__label {
+    display: flex;
+    justify-content: center;
+}
+span.rc-selling-plans-dropdown__label.pb-1 {
+    display: none;
+}
+.rc-selling-plans-dropdown__select {
+    padding: 0 !important;
+    margin-top: 0 !important;
+    border: none !important;
+    font-size: 14px !important;
+    color: #262514 !important;
+}
+label.rc-selling-plans-dropdown {
+    width: 85%;
+}
+section.section-custom_fields {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 50px);
+    width: 100%;
+}
+.collection_top h3 {
+    font-size: 36px;
+    color: #262514;
+}
