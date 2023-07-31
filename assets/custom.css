@@ -411,6 +411,24 @@ a.cart__items__remove {
 .cart__circle {
     display: none;
 }
+.empty_cart {
+    padding: 40px 20px;
+}
+.cart__continue__link {
+    margin-top: 1em;
+    color: #fff;
+    background: #262514;
+    padding: 8px;
+    border-radius: 36px;
+}
+.cart__empty .wrapper {
+    padding-left: 0;
+}
+.drawer__header.cart--hidden {
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+}
 @media screen and (max-width: 500px) {
     .desktop_video {
         display: none;

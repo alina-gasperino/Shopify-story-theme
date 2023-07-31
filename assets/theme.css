@@ -19616,25 +19616,6 @@ body .shopify-email-marketing-confirmation__container {
   display: none
 }
 
-.cart__empty {
-  height: calc(50vh - var(--header-height));
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 80px
-}
-
-.cart__circle__wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -80px;
-  padding-bottom: 20px;
-  flex-direction: column
-}
-
-
 .cart__continue__link {
   font-family: var(--FONT-STACK-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
