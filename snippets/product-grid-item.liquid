@@ -1,16 +1,3 @@
-<!-- /snippets/product-grid-item.liquid -->
-
-{% comment %}
-    Renders list of products in grid layout
-
-    Accepts:
-    - product: {Object} product (required)
-    - grid_strings: {String} contains a string of grid offset
-
-    Usage:
-    {% render 'product-grid-item', product: product, grid_strings: grid_strings %}
-{% endcomment %}
-
 {%- liquid
   assign current_variant = product.first_available_variant
 
@@ -87,15 +74,12 @@
 {%- endcapture -%}
 
 <div class="grid__item  prdt-grid {{ grid_strings }}{% if on_sale %} on-sale{% endif %}{% if tagged %} tagged{% endif %}">
-  <div class="product-grid-item">
-    
-      
-        
-        {% if product.metafields.custom.custom_tags != blank %}
-         <div class="custom_tags">
-           {{ product.metafields.custom.custom_tags }}
-         </div>
-        {% endif %}
+  <div class="product-grid-item">     
+    {% if product.metafields.custom.custom_tags != blank %}
+      <div class="custom_tags">
+        {{ product.metafields.custom.custom_tags }}
+      </div>
+    {% endif %}
     
     <a class="product-grid-item--link" href="{{ product.url | within: collection }}" data-grid-link><span class="visually-hidden">{{ product.title | strip_html | escape }}</span></a>
     <div class="lazy-image">
@@ -119,10 +103,8 @@
 
       <div class="card-name-review">
         <p class="name_wrapper">
-          {{ product.title | strip_html | escape }}
-          
+          {{ product.title | strip_html | escape }}          
           {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
-          
         </p>
       </div>  
       {%- if settings.product_grid_show_rating and product.metafields.reviews.rating.value != blank -%}
@@ -131,12 +113,7 @@
       {%- if product.metafields.theme.cutline != blank and product.metafields.theme.cutline.type == 'single_line_text_field' -%}
         <p class="grid__cutline">{{ product.metafields.theme.cutline.value }}</p>
       {%- endif -%}
-
-
-      
-      <p class="product-description-card">{{ product.description | strip_html | truncatewords: 10 }}</p>
-      
-      
+      <p class="product-description-card">{{ product.description | strip_html | truncatewords: 10 }}</p>     
     </div>
     <div class="product__details">
       {% render 'product-form2', product: product, block: block, section: section %}

@@ -1,7 +1,25 @@
 {
   "sections": {
+    "5c9db97c-58dc-4199-8abb-8eaeda961527": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-09_at_11.29.42_AM.png",
+        "bg_position": "center-center",
+        "height": "use_pixels_500",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "flex_align": "align--middle-left",
+        "align_text": "text-left",
+        "color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "blocks": {
         "collections": {
           "type": "heading",
@@ -79,8 +97,8 @@
         "heading": "",
         "bg": "palette--light bg--neutral",
         "pagination_count": 10,
-        "grid_setting_large": 3,
-        "grid_setting_medium": 2,
+        "grid_setting_large": 4,
+        "grid_setting_medium": 3,
         "grid_setting_small": 2,
         "show_collection_nav": true,
         "collection_custom_nav_list": "main-menu",
@@ -124,12 +142,12 @@
         "strong {color: white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/condomsfloor_600x_28b6d42c-dd86-4b6d-ac96-b3172befbc45.webp",
+        "image": "shopify:\/\/shop_images\/DSC02868.jpg",
         "bg_position": "center-center",
         "aspect_ratio": 1,
         "layout": "left",
-        "title": "AS SEEN IN",
-        "text": "<h1><strong>FORBES<\/strong><\/h1><p>“Redefining the sex essentials industry for modern consumers.”<\/p>",
+        "title": "UNWIND, HEAL, RELAX",
+        "text": "<p>PRIORITIZE YOUR DAILY WELLNESS AND SELF-CARE ROUTINES IN MINUTES.<\/p>",
         "logotext": "",
         "text2": "",
         "color_text_bg": "palette--light bg--accent",
@@ -145,6 +163,7 @@
     },
     "754b651a-ff54-4152-b0c5-5b1812d51f57": {
       "type": "text-with-accordion",
+      "disabled": true,
       "blocks": {
         "9e8dfda1-3fea-4dbb-a5f7-bfa3437babfd": {
           "type": "text",
@@ -206,17 +225,18 @@
     },
     "68587fe8-7bed-4e9f-8652-cee5e281a639": {
       "type": "section-blog",
+      "disabled": true,
       "custom_css": [
         ".palette--light {background: #262615;}"
       ],
       "settings": {
-        "title": "from the maudern.",
+        "title": "SOULDESIGN1",
         "index_blog": "news",
         "limit": 6,
         "grid": 4,
         "aspect_ratio": 1.3,
         "show_meta": true,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "show_tags": true,
         "show_view_all": false,
         "color_bg": "palette--light bg--neutral",
@@ -227,6 +247,7 @@
     }
   },
   "order": [
+    "5c9db97c-58dc-4199-8abb-8eaeda961527",
     "banner",
     "f4be4ce2-8485-46d7-8eb1-ca364d37c8a9",
     "main",

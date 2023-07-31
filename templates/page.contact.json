@@ -71,7 +71,8 @@
         "form_element_1": {
           "type": "text",
           "settings": {
-            "title": "Full Name"
+            "title": "Full Name",
+            "title2": "Last Name"
           }
         },
         "form_element_2": {
@@ -207,7 +208,7 @@
             "title": "",
             "date": "For questions about your order.",
             "story": "",
-            "link_text": "order@souldesign1",
+            "link_text": "hello@souldesign1",
             "link": "shopify:\/\/pages\/mission"
           }
         },

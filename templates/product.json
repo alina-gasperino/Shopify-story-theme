@@ -13,6 +13,10 @@
             "show_rating_count": true
           }
         },
+        "4f3d3f06-99f2-47f0-8d1b-7bde4402b6ee": {
+          "type": "shopify:\/\/apps\/process-wholesale\/blocks\/product-block\/499e8f52-ed0c-4e9f-858d-3795c1fda878",
+          "settings": {}
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -65,6 +69,7 @@
       },
       "block_order": [
         "title",
+        "4f3d3f06-99f2-47f0-8d1b-7bde4402b6ee",
         "form",
         "ef2cbe2e-0020-4215-acc9-2385e758c24f",
         "description",
@@ -166,22 +171,23 @@
     "3a5d9cae-81b7-4726-8e2f-75d6f5b513cb": {
       "type": "section-row",
       "custom_css": [
-        ".wrapper--full{padding:0;}",
+        ".wrapper--full {padding: 0;}",
         ".overlap__image {width: 50%;}",
         ".overlap__item {margin: 0px !important; background: #d6d1ca;}",
-        ".overlap__content__wrapper {text-align: center; color: #000 !important; font-family: \"Neue Haas Unica\", sans-serif; font-weight: 400; font-size: 26px; padding: 0 20%;}",
-        ".image__fill {padding-top: 0%; height: 100%;}"
+        ".overlap__content__wrapper {padding: 0 20%;}",
+        ".image__fill {padding-top: 0%; height: 100%;}",
+        ".logo {text-align: center;}",
+        ".overlap__rte.text2 {font-size: 26px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MD_shine4oz_heat_texture_9b71a54f-28fa-4e2c-bae4-56b0a06cbb5a.jpg",
+        "image": "shopify:\/\/shop_images\/DSC02868_9822eb9e-36a1-42d6-93f2-ac1cf0d3ba36.jpg",
         "bg_position": "center-center",
         "aspect_ratio": 1,
         "layout": "left",
         "title": "",
         "text": "",
         "logotext": "",
-        "logo": "shopify:\/\/shop_images\/Glamour_Small_38fa0672-7202-46af-bdc6-319f463e93ea.webp",
-        "text2": "<p>\"Maude's spot is a sleeker, less-intimidating version of your average G-spot vibrator.\"<\/p>",
+        "text2": "<p>\"I'm a dog mom and tend to stray away from incense because of the smoke. However these incense cones smell amazing and they don't upset my fur babies. It's a win-win!\"<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",

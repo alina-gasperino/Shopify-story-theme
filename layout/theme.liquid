@@ -18,9 +18,10 @@ You can learn more about this (and learn how to cleanly revert these changes) at
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="{{ settings.accent_cool }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   {%- if canonical_url != blank -%}
-    {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
-{%- if disabled_by_yoast_seo -%}
+      {%- comment -%}Auto-disabled. Yoast plugin is taking care of Meta Tags output.{%- endcomment -%}
+  {%- if disabled_by_yoast_seo -%}
 <link rel="canonical" href="{{ canonical_url }}">
 {%- comment -%} End Yoast auto-disable. {%- endcomment -%}
 {%- endif -%}

@@ -39,7 +39,7 @@
       "home": "Home"
     },
     "newsletter_form": {
-      "newsletter_email": "hi@email.com",
+      "newsletter_email": "YOUR EMAIL ADDRESS",
       "submit": "Join",
       "subscribed": "Thank you for joining our mailing list!",
       "error_message": "This customer is already subscribed"

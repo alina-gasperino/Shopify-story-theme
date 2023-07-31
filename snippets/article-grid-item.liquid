@@ -36,14 +36,7 @@
     <div class="article__card__content">
 
       <a href="{{ article.url }}" class="h5--body article__card__title">{{ article.title }}</a>
-      {% if show_meta %}
-        <p class="article__card__meta {% if show_comments and article.comments_count > 0 %}article__card__meta--comments{% endif %}">
-          <span class="meta--light">{{ 'blogs.article.by' | t }}</span>
-          <span class="meta--dark">{{ article.author }}</span>
-          <span class="meta--light">{{ 'blogs.article.on' | t }}</span>
-          <span class="meta--dark">{{ article.published_at | date: "%b %d, %Y" }}</span>
-        </p>
-      {% endif %}
+      
       {% if show_excerpt %}
         <div class="article__card__text">
           {% if article.excerpt == blank %}
@@ -54,6 +47,16 @@
             <a class="h6--body border-bottom-link" href="{{ article.url }}">{{ 'blogs.article.read_more' | t }}</a>
         </div>
       {% endif %}
+
+      {% if show_meta %}
+        <p class="article__card__meta {% if show_comments and article.comments_count > 0 %}article__card__meta--comments{% endif %}">
+          <span class="meta--light">{{ 'blogs.article.by' | t }}</span>
+          <span class="meta--dark">{{ article.author }}</span>
+          <span class="meta--light">{{ 'blogs.article.on' | t }}</span>
+          <span class="meta--dark">{{ article.published_at | date: "%b %d, %Y" }}</span>
+        </p>
+      {% endif %}
+      
       {% if show_comments and article.comments_count > 0 %}
         <a class="article__card__comments" href="{{ article.url }}/#comments">
           <span class="h6--accent">{{ article.comments_count }}</span>

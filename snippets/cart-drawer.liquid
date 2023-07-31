@@ -26,7 +26,7 @@
     <div class="drawer__top">
 
       <div class="drawer__top__left">
-        <p class="cart__drawer__title">{{ 'layout.cart.title' | t }}</p>
+        <p class="cart__drawer__title">your cart</p>
       </div>
 
       <button class="drawer__button drawer__close"
@@ -37,80 +37,83 @@
     </div>
     <div class="drawer__body" data-drawer-scrolls>
       {% if settings.cart_custom_message_enable and settings.cart_custom_message_text != blank %}
-        <div class="drawer__announcement__bar cart--hidden" data-cart-bar>
-          {{ settings.cart_custom_message_text }}
+        <div class="drawer__header" data-cart-bar>
+          <div class="announcement__bar_txt">
+            {{ settings.cart_custom_message_text }}
+          </div>
+          <div class="shipping_progress"><div class="shipping_fill_bar"></div></div>
         </div>
       {% endif %}
 
       {% assign free_shipping_text = block.settings.message | default: settings.message %}
-{% assign is_enable = false %}
-{% assign show_wheel = true %}
+      {% assign is_enable = false %}
+      {% assign show_wheel = true %}
 
-{% if block.settings.show_wheel == false %}
-  {% assign show_wheel = false %}
-{% endif %}
-
-{% if block.settings.message != blank %}
-  {% assign is_enable = true %}
-{% endif %}
-
-{% if settings.show_free_shipping_message and settings.free_shipping_limit != blank and free_shipping_text != blank %}
-  {% assign is_enable = true %}
-{% endif %}
-
-{% if is_enable %}
-  {% assign limit = settings.free_shipping_limit | plus: 0 %}
-  {% assign limit_currency = limit | times: 100 %}
-  {% assign subtotal_without_currency = cart.total_price | plus: 0 | divided_by: 100 %}
-
-  {% capture left_to_spend %}
-    <span data-left-to-spend>
-      {% if settings.currency_code_enable %}
-        {{ limit_currency | minus: cart.total_price | money_with_currency }}
-      {% else %}
-        {{ limit_currency | minus: cart.total_price | money_without_trailing_zeros }}
+      {% if block.settings.show_wheel == false %}
+        {% assign show_wheel = false %}
       {% endif %}
-    </span>
-  {% endcapture %}
 
-  {% assign free_shipping_message = free_shipping_text | replace: '||amount||', left_to_spend %}
-  {% assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t %}
-  {% assign class_message = '' %}
-
-  {% if subtotal_without_currency >= limit %}
-    {% if qualified_shipping_message != blank %}
-      {% assign class_message = 'is-success' %}
-    {% else %}
-      {% assign class_message = 'is-hidden' %}
-    {% endif %}
-  {% elsif subtotal_without_currency == 0 %}
-    {% comment %} {% assign class_message = 'is-hidden' %} {% endcomment %}
-  {% endif %}
-
-  <p class="cart__message {{ class_message }}" data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}" data-limit="{{ limit }}" data-cart-progress>
-    {% if show_wheel %}
-      {% assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit %}
-      {% assign percent = 100 | minus: percent %}
-
-      {% if percent > 100 %}
-        {% assign percent = 100 %}
+      {% if block.settings.message != blank %}
+        {% assign is_enable = true %}
       {% endif %}
-      <small class="cart__graph">
-        {% for i in (1..6) %}
-          <small class="confetti confetti--{{ i }}"></small>
-        {% endfor %}
-      </small>
-    {% endif %}
 
-    {% if qualified_shipping_message != blank %}
-      <span class="cart__message-success">{{ qualified_shipping_message }}</span>
-    {% endif %}
+      {% if settings.show_free_shipping_message and settings.free_shipping_limit != blank and free_shipping_text != blank %}
+        {% assign is_enable = true %}
+      {% endif %}
 
-    <span class="cart__message-default">
-      {{ free_shipping_message }}
-    </span>
-  </p>
-{% endif %}
+      {% if is_enable %}
+        {% assign limit = settings.free_shipping_limit | plus: 0 %}
+        {% assign limit_currency = limit | times: 100 %}
+        {% assign subtotal_without_currency = cart.total_price | plus: 0 | divided_by: 100 %}
+
+        {% capture left_to_spend %}
+          <span data-left-to-spend>
+            {% if settings.currency_code_enable %}
+              {{ limit_currency | minus: cart.total_price | money_with_currency }}
+            {% else %}
+              {{ limit_currency | minus: cart.total_price | money_without_trailing_zeros }}
+            {% endif %}
+          </span>
+        {% endcapture %}
+
+        {% assign free_shipping_message = free_shipping_text | replace: '||amount||', left_to_spend %}
+        {% assign qualified_shipping_message = 'cart.general.qualified_shipping_message' | t %}
+        {% assign class_message = '' %}
+
+        {% if subtotal_without_currency >= limit %}
+          {% if qualified_shipping_message != blank %}
+            {% assign class_message = 'is-success' %}
+          {% else %}
+            {% assign class_message = 'is-hidden' %}
+          {% endif %}
+        {% elsif subtotal_without_currency == 0 %}
+          {% comment %} {% assign class_message = 'is-hidden' %} {% endcomment %}
+        {% endif %}
+
+        <p class="cart__message {{ class_message }}" data-cart-message="{% if qualified_shipping_message != blank %}true{% else %}false{% endif %}" data-limit="{{ limit }}" data-cart-progress>
+          {% if show_wheel %}
+            {% assign percent = limit | minus: subtotal_without_currency | times: 100 | divided_by: limit %}
+            {% assign percent = 100 | minus: percent %}
+
+            {% if percent > 100 %}
+              {% assign percent = 100 %}
+            {% endif %}
+            <small class="cart__graph">
+              {% for i in (1..6) %}
+                <small class="confetti confetti--{{ i }}"></small>
+              {% endfor %}
+            </small>
+          {% endif %}
+
+          {% if qualified_shipping_message != blank %}
+            <span class="cart__message-success">{{ qualified_shipping_message }}</span>
+          {% endif %}
+
+          <span class="cart__message-default">
+            {{ free_shipping_message }}
+          </span>
+        </p>
+      {% endif %}
 
       <div class="errors" data-form-errors style="display: none;"></div>
 
@@ -135,6 +138,50 @@
       {% comment %}Shown if cart has contents{% endcomment %}
       <div data-cart-form data-cart-loading>
         <div data-line-items>
+        </div>
+      </div>
+      <div class="cart_related_body">
+        <h3>you might also like these</h3>
+        <div class="cart_related">
+          {%- assign grid_strings = 'large-up--one-third medium--one-half small--one-half mobile--nine-tenths' -%}
+          {% for product in collections['shop-all'].products limit: 3 %}
+            <div class="grid__item_related">
+              <div class="product-grid-item">
+                
+                <a class="product-grid-item--link" href="{{ product.url | within: collection }}" data-grid-link><span class="visually-hidden">{{ product.title | strip_html | escape }}</span></a>
+                <div class="lazy-image">
+                  {%- render 'image-fill', img_object: product.featured_media.preview_image, aspect_ratio: settings.product_grid_aspect_ratio -%}
+                  {{ badge }}
+                </div>
+                <noscript>
+                  <img src="{{ product.featured_media.preview_image | img_url: '360x' }}" alt="{{ product.featured_media.preview_image.alt | default: product.title | strip_html | escape }}">
+                </noscript>
+            
+                <div class="grid__caption">
+                  {%- if settings.show_vendow == 'show-vendor' and product.vendor -%}
+                    <p class="vendor_wrapper">
+                      {{ product.vendor | strip_html | escape }}
+                    </p>
+                  {%- elsif settings.show_vendow == 'show-vendor-link' and product.vendor -%}
+                    <p class="vendor_wrapper">
+                      <a class="vendor__link" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor | strip_html | escape }}</a>
+                    </p>
+                  {%- endif -%}
+            
+                  <div class="card-name-review">
+                    <p class="name_wrapper">
+                      {{ product.title | strip_html | escape }}
+                    </p>
+                  </div>
+                  {% comment %} <p class="product-description-card">{{ product.description | strip_html | truncatewords: 10 }}</p> {% endcomment %}
+                  {{ product.price | money }}  
+                </div>
+              </div>          
+              <div class="product__details">
+                {% render 'product-form2', product: product, block: block, section: section %}
+              </div>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>

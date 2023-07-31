@@ -86,7 +86,7 @@
 
       {%- if video_bg_show -%}
         <div class="video-background-wrapper">
-          <video
+          <video class="desktop_video"
             data-background-video
             {% if section.settings.image != blank %}poster="{{ section.settings.image.src | img_url: '1x1' }}"{% endif %}
             style="object-position: {{ section.settings.object_position | replace: '-', ' ' }};"
@@ -95,6 +95,16 @@
             loop
             muted>
             <source src="{{ section.settings.video_link_bg }}" type="video/mp4" />
+          </video>
+          <video class="mobile_video"
+            data-background-video
+            {% if section.settings.image != blank %}poster="{{ section.settings.image.src | img_url: '1x1' }}"{% endif %}
+            style="object-position: {{ section.settings.object_position | replace: '-', ' ' }};"
+            playsinline
+            autoplay
+            loop
+            muted>
+            <source src="{{ section.settings.video_link_bg_mobile }}" type="video/mp4" />
           </video>
         </div>
       {%- else -%}
@@ -125,6 +135,11 @@
         "id": "video_link_bg",
         "label": "Video background link",
         "info": "MP4 video link from [files](/admin/settings/files)."
+      },
+      {
+        "type": "text",
+        "id": "video_link_bg_mobile",
+        "label": "Video background link for Mobile"
       },
       {
         "type": "select",

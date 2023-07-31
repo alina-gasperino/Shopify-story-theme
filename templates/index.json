@@ -6,23 +6,23 @@
         "c718cb81-7c9b-4fd3-90e2-a4901427bbe5": {
           "type": "kicker",
           "settings": {
-            "kicker": "<p>modern intimacy®<\/p>",
+            "kicker": "<p>SOULDESIGN1®<\/p>",
             "enable_caps": false,
-            "text_size": 4
+            "text_size": 1
           }
         },
         "04edb2da-2c60-4a8d-906a-000cdfe884f9": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>spring showers.<\/strong><\/p>",
-            "text_size": 13
+            "heading": "",
+            "text_size": 7
           }
         },
         "b378b7a7-fafe-4a76-8ab2-a13145ecc788": {
           "type": "text",
           "settings": {
-            "text": "<p>Go beyond the bedroom with made-to-share essentials.<\/p>",
-            "text_size": 4,
+            "text": "<p>Elevate and transform your space with invigorating home fragrances,          self-care products and curated decor pieces that compliment the mind, body, and home.     <\/p>",
+            "text_size": 5,
             "text_columns": 1
           }
         },
@@ -31,9 +31,9 @@
           "settings": {
             "button_text": "explore all",
             "button_url": "shopify:\/\/collections\/all",
-            "button_size": "",
+            "button_size": "btn--small",
             "button_style": "hero__btn btn--outline",
-            "button_color": "btn--black"
+            "button_color": "btn--secondary"
           }
         }
       },
@@ -45,14 +45,16 @@
       ],
       "custom_css": [
         ".hero__content {margin-left: 13%;}",
-        ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 16px; line-height: normal; border-radius: 36px; padding: 12px 56px; color: #262514; border: 1px solid white; margin-top: 20px; background-color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}",
-        ".hero__btn:hover {background: transparent; color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}"
+        ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 16px; line-height: normal; border-radius: 36px; padding: 6px 36px; color: #6a6158; border: 1px solid white; margin-top: 20px; background-color: white;}",
+        ".hero__btn:hover {background: transparent; color: white;}",
+        ".text__standard {max-width: 600px;}",
+        "p {margin-bottom: 0;}"
       ],
       "settings": {
         "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d6b906e2edae4fc88ac08aae4101908d.mp4",
         "object_position": "center-center",
         "bg_position": "center-center",
-        "height": "use_pixels_650",
+        "height": "use_screen_three_quarters",
         "overlay_opacity": 50,
         "overlay_color": "#000000",
         "flex_align": "align--middle-left",
@@ -133,6 +135,7 @@
       "blocks": {
         "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-0": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/vogue.png",
             "link": "#",
@@ -141,6 +144,7 @@
         },
         "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-1": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/gq.png",
             "link": "#",
@@ -149,6 +153,7 @@
         },
         "template--16217786450088__ac5f8410-1441-4ea5-95ea-0e730befa529-168599459404c4e1d7-2": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/instyle.png",
             "link": "#",
@@ -158,7 +163,7 @@
         "296fb47d-7eee-4095-b246-60b3ec654cf6": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/strategist.png",
+            "image": "shopify:\/\/shop_images\/Logo.png",
             "link": "",
             "new_tab": true
           }
@@ -166,7 +171,7 @@
         "b24182ff-773f-46d9-8ae0-c51d86a64735": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/men_health.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design-7.png",
             "link": "",
             "new_tab": true
           }
@@ -174,7 +179,7 @@
         "332fe633-3ba1-4da1-aae6-4c82ee9f384c": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fast_company.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design-9.png",
             "link": "",
             "new_tab": true
           }
@@ -189,16 +194,16 @@
         "332fe633-3ba1-4da1-aae6-4c82ee9f384c"
       ],
       "custom_css": [
-        ".h3 {font-weight: 400; font-size: 16px; color: #262514; text-transform: uppercase !important; letter-spacing: 0.75px !important;}",
+        ".h3 {font-weight: 500; font-size: 10px; color: #52493f; text-transform: uppercase !important; letter-spacing: 0.75px !important;}",
         ".logo-bar {margin: 0px;}"
       ],
       "settings": {
-        "title": "featured in",
+        "title": "Notable customers",
         "bg": "palette--light bg--accent",
         "alignment": "text-center",
         "width": "wrapper",
-        "padding_top": 20,
-        "padding_bottom": 50
+        "padding_top": 12,
+        "padding_bottom": 0
       }
     },
     "b22654b7-5011-49df-80e3-ad4195f4d205": {
@@ -207,8 +212,8 @@
         "e7569e07-311b-4b68-ad0a-10409a228e2b": {
           "type": "tab",
           "settings": {
-            "tab_heading": "best sellers",
-            "title": "Best seller",
+            "tab_heading": "bestsellers",
+            "title": "Bestsellers",
             "description": "<p>Luxurious, high quality sensory<br\/>incense products crafted for the<br\/>ultimate self care experience<\/p>",
             "collection": "flowio-bestseller",
             "btntext": "bestseller",
@@ -256,8 +261,8 @@
         "template--16217786450088__b22654b7-5011-49df-80e3-ad4195f4d205-16864156815f6d442d-0"
       ],
       "custom_css": [
-        ".h3 {font-size: 28px; line-height: 1.4; display: inline-block; font-weight: 500; font-family: \"Montserrat\"; color: #262514; text-transform: lowercase;}",
-        ".index__collection__subtitle p {margin: 0.5rem 0 0; font-size: 14px; color: #262514; font-weight: 400; line-height: 1.31; letter-spacing: normal; font-family: \"Neue Haas Unica\";}",
+        ".h3 {font-size: 28px; line-height: 1.4; display: inline-block; font-weight: 500; font-family: \"Montserrat\"; color: #6a6158; text-transform: lowercase;}",
+        ".index__collection__subtitle p {margin: 0.5rem 0 0; font-size: 14px; color: #6a6158; font-weight: 400; line-height: 1.31; letter-spacing: normal; font-family: \"Montserrat\";}",
         ".slick-track {display: flex; flex-wrap: nowrap; justify-content: start; align-items: center;}"
       ],
       "settings": {
@@ -283,14 +288,14 @@
         ".image__fill {padding-top: 75% !important; height: 100%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/story.png",
+        "image": "shopify:\/\/shop_images\/imgonline-com-ua-convertm1UIXZNXmnUt.jpg",
         "bg_position": "center-center",
         "aspect_ratio": 1.3,
         "layout": "right",
         "title": "",
-        "text": "<p>modern intimacy<\/p>",
+        "text": "",
         "logotext": "",
-        "text2": "<p>As a modern sexual wellness company built on quality, simplicity and inclusivity, we’re on a mission to make intimacy better—for all people.<\/p>",
+        "text2": "<p>As a home decor and wellness brand, our mission is to connect modern design and wellness principles by curating products that can improve everyday living.<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "Our Story",
         "button_link": "shopify:\/\/pages\/about-us",
@@ -437,7 +442,7 @@
           "type": "article",
           "settings": {
             "article-text": "",
-            "link": "#",
+            "link": "shopify:\/\/blogs\/news\/is-lesbian-bed-death-real",
             "article-image": "shopify:\/\/shop_images\/HomePageImage6.png"
           }
         },
@@ -445,22 +450,22 @@
           "type": "article",
           "settings": {
             "article-text": "",
-            "link": "#",
+            "link": "shopify:\/\/blogs\/news\/what-we-can-learn-from-polyamory",
             "article-image": "shopify:\/\/shop_images\/HomePageImage5.png"
           }
         },
         "663b893c-43a0-419d-aa82-b78b7f3fce41": {
           "type": "article",
           "settings": {
-            "article-text": "Testing Text Testing text",
-            "link": "",
+            "article-text": "",
+            "link": "shopify:\/\/blogs\/news\/the-transformative-power-of-meditation-and-incense-a-personal-journey",
             "article-image": "shopify:\/\/shop_images\/HomePageImage1.png"
           }
         },
         "79b137ee-ba51-447f-848f-51f6fbec82db": {
           "type": "article",
           "settings": {
-            "article-text": "Testing Text Testing text",
+            "article-text": "",
             "link": "#",
             "article-image": "shopify:\/\/shop_images\/HomePageImage7.jpg"
           }
@@ -477,10 +482,10 @@
       ],
       "settings": {
         "heading1": "",
-        "heading2": "the maudern.",
-        "desc1": "<p>weekly dispatch on science, history, and health, plus the people, culture, and design that make sex modern.<\/p>",
-        "linktext1": "view articles",
-        "link1": "#"
+        "heading2": "SOULDESIGN",
+        "desc1": "<p>Get inspired by design, relaxing self care tips, plus a look into our limited edition \"Dope Shit\" collection and the creators behind it.<\/p>",
+        "linktext1": "discover",
+        "link1": "shopify:\/\/blogs\/news"
       }
     }
   },

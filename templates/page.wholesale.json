@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-default",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true,
+        "alignment": "text-left",
+        "page_nav": "",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16905363078e62c7a2": {
+      "type": "apps",
+      "blocks": {
+        "c4036f93-61be-4897-ad98-8d1cd35d623d": {
+          "type": "shopify:\/\/apps\/process-wholesale\/blocks\/signup-form\/499e8f52-ed0c-4e9f-858d-3795c1fda878",
+          "settings": {
+            "wholesaleRegisterText": "Create wholesale account",
+            "wholesaleLoginText": "Or login, If you already have an account.",
+            "pendingAccountMessage": "Thank you! your wholesale account is currently under review",
+            "pendingAccountMessageColor": "#30383f",
+            "alreadyLoggedInAccountMessage": "You are logged into your wholesale account",
+            "alreadyLoggedInAccountLink": "",
+            "businessNameFieldConfig": "required",
+            "businessAddressFieldConfig": "show",
+            "taxIDFieldConfig": "show",
+            "websiteFieldConfig": "show",
+            "moreInfoFieldConfig": "show"
+          }
+        }
+      },
+      "block_order": [
+        "c4036f93-61be-4897-ad98-8d1cd35d623d"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16905363078e62c7a2"
+  ]
+}

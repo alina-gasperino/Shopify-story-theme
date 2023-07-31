@@ -16,17 +16,20 @@
     },
     "56a2787b-894d-44bd-b590-908635c747fd": {
       "type": "section-hero",
+      "disabled": true,
       "blocks": {
         "df1d5fa3-adb8-478a-abc1-848f2fb0387f": {
           "type": "kicker",
+          "disabled": true,
           "settings": {
-            "kicker": "<h6>modern intimacy®<\/h6>",
+            "kicker": "",
             "enable_caps": false,
             "text_size": 4
           }
         },
         "template--16220471722152__56a2787b-894d-44bd-b590-908635c747fd-1685725523b5b6e37c-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<h1>give back.<\/h1>",
             "text_size": 15
@@ -34,8 +37,9 @@
         },
         "template--16220471722152__56a2787b-894d-44bd-b590-908635c747fd-1685725523b5b6e37c-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>At souldesign1, we believe it is our responsibility to support inclusive, sexual health and education for all people.<\/p>",
+            "text": "<p>At souldesign1, we believe it is our <\/p>",
             "text_size": 6,
             "text_columns": 1
           }
@@ -70,6 +74,7 @@
     },
     "5635bb7d-80b9-4923-9370-8bdd12365cb8": {
       "type": "section-row",
+      "disabled": true,
       "custom_css": [
         ".wrapper--full {padding: 0px !important;}",
         ".overlap__image {width: 50%;}",
@@ -84,7 +89,7 @@
         "aspect_ratio": 1.3,
         "layout": "right",
         "title": "",
-        "text": "<h4>We believe that comprehensive sex education is a vehicle for social impact and are directing our efforts to support and amplify the organizations that are working to advance standards through advocacy, educational curriculum, and accessibility across the country.<br\/><br\/>We are proud to support the following organizations that align with these pillars of change.<\/h4>",
+        "text": "<h4>We believe that <\/h4>",
         "logotext": "",
         "text2": "",
         "color_text_bg": "palette--light bg--accent",
@@ -100,6 +105,7 @@
     },
     "76456ad6-c801-4813-ad4a-a4c561e1fcb1": {
       "type": "section-row",
+      "disabled": true,
       "custom_css": [
         ".wrapper--full {padding: 0px !important; background: #262514;}",
         ".overlap__image {width: 50%;}",
@@ -115,8 +121,8 @@
         "bg_position": "center-center",
         "aspect_ratio": 1.3,
         "layout": "left",
-        "title": "advocacy.",
-        "text": "<p>Sex education policy remains in the hands of state legislators with policies differing across the nation. In the past year, only 1% of the 84 proposed bills seeking to advance sexual health curriculum were enacted—those passed aimed to restrict the evolution and inclusivity of sex education.<\/p>",
+        "title": "Wellness",
+        "text": "<p>soul<\/p>",
         "logotext": "<p>OUR PARTNER<\/p>",
         "logo": "shopify:\/\/shop_images\/give-back-seicus.webp",
         "text2": "<p>Focusing on cross-movement federal policy, SIECUS advances sex education by leading the Sex Ed Policy Action Council (SEPAC), a network of state-based sex-ed advocates and policy leaders—working toward a world where all people can access sexual and reproductive freedom as they define it for themselves.<\/p>",
@@ -133,6 +139,7 @@
     },
     "37661ea1-6b7d-4b10-a2c0-94685c27e634": {
       "type": "section-row",
+      "disabled": true,
       "custom_css": [
         ".wrapper--full {padding: 0px !important; background: #b2a9a0;}",
         ".overlap__image {width: 50%;}",
@@ -152,7 +159,7 @@
         "text": "<p>Our nation is failing to provide young people with the foundation of sexual health information and skills they need to lead healthy lives. Just 42.8% of all high schools and 17.6% of middle schools in the US provide all topics identified by the CDC as critical sex education topics.<\/p>",
         "logotext": "<p>OUR PARTNER<\/p>",
         "logo": "shopify:\/\/shop_images\/give-back-advocates-for-youth3.webp",
-        "text2": "<p>Advocates for Youth partners with youth leaders, parents, and healthcare providers to champion programs that support young people’s access to honest sexual health information that is extensive, confidential, and affordable.<\/p>",
+        "text2": "<p>Advocates for<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "Learn More",
         "button_link": "shopify:\/\/blogs\/news",
@@ -166,6 +173,7 @@
     },
     "fc90aef7-89f2-461b-ba24-f7fd1ec6cf8f": {
       "type": "section-row",
+      "disabled": true,
       "custom_css": [
         ".wrapper--full {padding: 0px !important; background: #262514;}",
         ".overlap__image {width: 50%;}",
@@ -199,6 +207,7 @@
     },
     "41299635-dd39-4b6c-a0aa-9a95aa8510f6": {
       "type": "section-row",
+      "disabled": true,
       "custom_css": [
         ".wrapper--full {padding: 0px !important; background: #b2a9a0;}",
         ".overlap__image {padding: 35px 35px 35px 0%; width: 40%;}",
@@ -211,12 +220,12 @@
         ".overlap__rte {font-size: 14px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/give-back-4_400x_644b13f3-ddd3-4a1d-8006-57b465522429.webp",
+        "image": "shopify:\/\/shop_images\/DSC02416.jpg",
         "bg_position": "center-center",
         "aspect_ratio": 1.3,
         "layout": "right",
-        "title": "modern intimacy®",
-        "text": "<h3>As a modern sexual wellness company built on quality, simplicity, and inclusivity, we’re on a mission to make intimacy better—for all people.<\/h3>",
+        "title": "",
+        "text": "",
         "logotext": "",
         "text2": "",
         "color_text_bg": "palette--light bg--accent",

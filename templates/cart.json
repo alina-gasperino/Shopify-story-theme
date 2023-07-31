@@ -3,9 +3,30 @@
     "main": {
       "type": "cart",
       "settings": {}
+    },
+    "1690569056e6d74d5d": {
+      "type": "apps",
+      "blocks": {
+        "3522ee00-8cb1-4267-ba2e-91961aa37967": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "3522ee00-8cb1-4267-ba2e-91961aa37967"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1690569056e6d74d5d"
   ]
 }

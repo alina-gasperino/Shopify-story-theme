@@ -17,34 +17,44 @@
     "8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9": {
       "type": "section-hero",
       "blocks": {
-        "223bb24c-6321-4d8b-942c-a16ff804a7e9": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "<p><strong>as seen in<\/strong><\/p>",
-            "enable_caps": false,
-            "text_size": 5
-          }
-        },
         "7caf03d9-dbe8-427a-9b6b-0577551cffcb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/forbes.png",
             "image_max_limit": 300,
             "image_link": ""
           }
         },
+        "223bb24c-6321-4d8b-942c-a16ff804a7e9": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>OSTBX<\/p>",
+            "enable_caps": true,
+            "text_size": 15
+          }
+        },
+        "14bda719-b110-4ccb-8ec1-b7561117d905": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>OSTBX<\/strong><\/p>",
+            "text_size": 8
+          }
+        },
         "template--16217786679464__8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9-168573393335a8cd35-1": {
           "type": "text",
           "settings": {
-            "text": "<p>\"redefining the sexual wellness industry for modern consumers.\"<\/p>",
+            "text": "<h4>\"functional design and wellness products blended together make the perfect pair.\"<\/h4>",
             "text_size": 9,
             "text_columns": 1
           }
         }
       },
       "block_order": [
-        "223bb24c-6321-4d8b-942c-a16ff804a7e9",
         "7caf03d9-dbe8-427a-9b6b-0577551cffcb",
+        "223bb24c-6321-4d8b-942c-a16ff804a7e9",
+        "14bda719-b110-4ccb-8ec1-b7561117d905",
         "template--16217786679464__8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9-168573393335a8cd35-1"
       ],
       "custom_css": [
@@ -53,7 +63,7 @@
         ".standard__rte h4 {font-size: 24px; line-height: 1.4; font-family: \"Montserrat\"; max-width: 450px; font-weight: 500;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-14_at_5.13.48_PM.png",
+        "image": "shopify:\/\/shop_images\/AboutImage1.png",
         "mobile_image": "shopify:\/\/shop_images\/AboutImage1.png",
         "bg_position": "center-center",
         "height": "use_pixels_800",
@@ -109,10 +119,10 @@
         "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-0": {
           "type": "icon_block",
           "settings": {
-            "icon_name": "icon-animal",
+            "icon_name": "icon-earth",
             "icon_color": "rgba(0,0,0,0)",
-            "title": "quality.",
-            "text": "<p>We work with the best factories in the world to make safe and fuss-free essentials.<\/p>"
+            "title": "wellness",
+            "text": "<p>We believe self-care and wellness are essential elements needed to achieve balance in our lives.<\/p>"
           }
         },
         "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-1": {
@@ -120,8 +130,8 @@
           "settings": {
             "icon_name": "icon-basket-return",
             "icon_color": "rgba(0,0,0,0)",
-            "title": "simplicity.",
-            "text": "<p>We believe in universal design so we keep it pared down and simple, always.<\/p>"
+            "title": "design",
+            "text": "<p>We design exquisitely crafted home decor pieces, that look and feel great, which promote health and wellbeing.<\/p>"
           }
         },
         "template--16217786679464__75f1b00b-5552-465e-9620-a658523834b6-16857360989ba27144-2": {
@@ -129,8 +139,8 @@
           "settings": {
             "icon_name": "icon-lock-shield",
             "icon_color": "rgba(0,0,0,0)",
-            "title": "inclusivity.",
-            "text": "<p>Intimacy is about people so we stand for inclusion for all, no matter your preference.<\/p>"
+            "title": "connect",
+            "text": "<p>Making a connection between design and wellness can be one of the simplest ways to achieve mental clarity and peace.<\/p>"
           }
         }
       },
@@ -163,7 +173,7 @@
           "settings": {
             "title": "THIS!!",
             "job": "M.S.",
-            "stars": 0,
+            "stars": 5,
             "text": "<p>\"Unlike any other incense I’ve ever used. It’s my favorite because it doesn’t have that typical smoky, lingering incense smell that I’ve found in every other type of incense. It smells fresh and warm and the scent lasts for a while but doesn’t completely overtake the room.\"<\/p>"
           }
         },
@@ -220,34 +230,34 @@
         ".subtitle--decorated {font-size: 14px; font-weight: 400; text-transform: uppercase; margin-top: 2rem; color: #262514;}"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "TESTIMIONALS",
         "description": "",
         "grid": 1,
         "background_color": "palette--light bg--accent",
         "width": "wrapper--full",
-        "padding_top": 90,
-        "padding_bottom": 90
+        "padding_top": 22,
+        "padding_bottom": 0
       }
     },
     "06144a93-bdd2-404a-b111-bcf18ceafc94": {
       "type": "section-row",
       "custom_css": [
-        ".wrapper--full {padding: 0px !important; text-transform: uppercase;}",
+        ".wrapper--full {padding: 0px !important;}",
         ".overlap__image {width: 35%;}",
         ".overlap__text {padding-left: 12%;}",
         ".overlap__content__wrapper {margin-right: 30%; font-size: 21px; font-weight: 400; line-height: 1.41; font-family: \"Neue Haas Unica\";}",
         ".overlap__item {background: #262514; color: white; margin: 0px;}",
-        ".h3 {color: white; font-weight: 700; font-size: 24px;}",
+        ".h3 {color: white; font-size: 24px;}",
         ".image__fill {padding-top: 0%; height: 100%;}",
-        ".overlap__rte {font-size: 14px; font-weight: 700;}"
+        ".overlap__rte {font-size: 14px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-05-12_at_6.02.04_PM.png",
+        "image": "shopify:\/\/shop_images\/AboutMe-4.png",
         "bg_position": "center-center",
         "aspect_ratio": 1,
         "layout": "left",
         "title": "Eboni Whisenton, Founder \/CEO",
-        "text": "<p>Born in Milwaukee, WI and raised in California since age two, I am a true Cali girl. I found my love for everything design early on and by age nine I would draw complete towns on lined paper; tapping them together and making full-scale cities. Souldesign began as a concept as a teen from hearing the countless compliments people would give my mother about our small apartment and the style it embodied.  I felt like design was a warming soulful experience and held some intrinsic value that I didn’t quite understand at the time. I held the concept close to my heart and life continued.<br\/><br\/>Fast forward twenty years, what started out as a home staging and interior design company in 2015 SOULDESIGN1 evolved from a series of life events; the biggest being grief from the loss of a baby, caring for ailing and aging parents and the need for self-care in any space. The (1) in our name represents new beginnings, fresh starts, spiritual awakenings, and connecting design & wellness into one. By exploring the ancient use of aromatherapy and other wellness practices we were able to create a line of self-care and luxe decor pieces that provide those relaxing moments that everyone deserves to enjoy from the comfort of their homes.<\/p><p><\/p><p>–Eboni<\/p>",
+        "text": "<p>Born in Milwaukee, WI and raised in California since age two, I am a true Cali girl. I found my love for everything design early on and by age nine I would draw complete towns on lined paper; tapping them together and making full-scale cities. Souldesign began as a concept as a teen from hearing the countless compliments people would give my mother about our small apartment and the style it embodied.  I felt like design was a warming soulful experience and held some intrinsic value that I didn’t quite understand at the time. I held the concept close to my heart and life continued.<br\/><br\/>Fast forward twenty years, what started out as a home staging and interior design company in 2015 SOULDESIGN1 evolved from a series of life events; the biggest being grief from the loss of a baby, caring for ailing and aging parents and the need for self-care in any space. The (1) in our name represents new beginnings, fresh starts, spiritual awakenings, and connecting design and wellness into one. By exploring the ancient use of aromatherapy and other wellness practices we were able to create a line of self-care and luxe decor pieces that provide those relaxing moments that everyone deserves to enjoy from the comfort of their homes.<\/p><p><\/p><p>–Eboni<\/p>",
         "logotext": "",
         "text2": "",
         "color_text_bg": "palette--light bg--accent",

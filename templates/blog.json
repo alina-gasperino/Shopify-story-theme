@@ -5,23 +5,23 @@
       "custom_css": [
         ".overlap__item {background: #262514;}",
         ".h3 {font-size: 13px; font-weight: 700;}",
-        ".overlap__rte {font-size: 37px; font-family: Montserrat, sans-serif;}",
+        ".overlap__rte {font-size: 37px; font-family: Montserrat, sans-serif; color: #fff;}",
         ".overlap__rte.text2 {color: #8f8e8e; font-size: 13px; font-weight: 700;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/blog.png",
+        "image": "shopify:\/\/shop_images\/DSC02244.jpg",
         "bg_position": "center-center",
         "aspect_ratio": 1,
         "layout": "right",
-        "title": "SEX EDUCATION",
-        "text": "<p>how to use a warming lubricant.<\/p>",
-        "logotext": "<p>Heating things up.<\/p>",
-        "text2": "<p>BY MAUDE TEAM | MAY 18, 2023<\/p>",
+        "title": "Smudging",
+        "text": "<p>5 Ways Burning Sage Can Help Create a More Harmonious Space in Your Home <\/p>",
+        "logotext": "",
+        "text2": "<p>BY SD1 TEAM | JULY 28, 2023<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
-        "button_link": "",
+        "button_link": "shopify:\/\/blogs\/news\/5-ways-burning-sage-can-help-create-a-more-harmonious-space-in-your-home",
         "button_style": "btn",
-        "button_color": "btn--neutral",
+        "button_color": "btn--white",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
         "padding_top": 36,
@@ -90,7 +90,10 @@
     },
     "f313169f-315a-42a6-a085-c04bc4d9a725": {
       "type": "section-blogforblogpage",
-      "custom_css": [],
+      "custom_css": [
+        ".text-center {margin-top: 120px;}",
+        ".text-center a {font-size: 14px; background: #fff; padding: 10px 120px; border-radius: 36px; color: #262514;}"
+      ],
       "settings": {
         "title": "",
         "index_blog": "news",
@@ -98,7 +101,7 @@
         "grid": 4,
         "aspect_ratio": 1,
         "show_meta": true,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "show_tags": true,
         "show_view_all": true,
         "color_bg": "palette--light bg--neutral",
@@ -109,6 +112,7 @@
     },
     "39b48ead-da38-45ca-a356-fcdce72f0282": {
       "type": "section-text",
+      "disabled": true,
       "blocks": {
         "3b7c901d-19d9-40f8-aa86-9fe58760ae22": {
           "type": "kicker",
@@ -121,8 +125,8 @@
         "template--16217786089640__39b48ead-da38-45ca-a356-fcdce72f0282-16886653635cff81eb-2": {
           "type": "text",
           "settings": {
-            "text": "<h2>modern intimacy through arts, science, and relationships.<\/h2>",
-            "text_size": 5,
+            "text": "<p>Luxe design and wellness experiences all in one.<\/p>",
+            "text_size": 4,
             "text_columns": 1
           }
         }
@@ -227,9 +231,9 @@
     "8729d382-73e5-478a-860a-8fd440551495": {
       "type": "blog-with-text",
       "custom_css": [
-        ".palette--light {background-color: #6f7162;}",
+        ".palette--light {background-color: #d6d1ca;}",
         ".rte-setting p {color: white;}",
-        ".h3 {font-family: \"Neue Haas Unica\", sans-serif; font-weight: 700; font-style: normal; line-height: 1.65; font-size: 37px;}",
+        ".h3 {font-family: \"Montserrat\", sans-serif; font-weight: 700; font-style: normal; line-height: 1.65; font-size: 37px;}",
         "p {font-size: 13px; font-weight: 700; font-style: normal; font-stretch: normal; line-height: 1.31; letter-spacing: normal;}"
       ],
       "settings": {
@@ -238,32 +242,33 @@
         "grid": 1,
         "aspect_ratio": 1,
         "show_meta": true,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "show_tags": true,
         "show_view_all": false,
         "bg_position": "center-center",
         "layout": "right",
-        "title": "the essentails",
-        "text": "<p>the basics of sex ed, culture, and navigating dating.<\/p>",
+        "title": "Wellness",
+        "text": "<p>Self-care, holistic techniques, relaxation, meditation and more.Comfort, balance, aesthetic, function, and more.<\/p>",
         "logotext": "",
         "text2": "",
         "color_text_bg": "palette--light bg--accent",
-        "button_label": "View more",
-        "button_link": "#",
+        "button_label": "discover",
+        "button_link": "shopify:\/\/blogs\/news\/is-lesbian-bed-death-real",
         "button_style": "btn",
         "button_color": "btn--neutral",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
         "padding_top": 74,
-        "padding_bottom": 180
+        "padding_bottom": 120
       }
     },
     "495c359c-53d8-47f5-a8c6-74bd89bc2492": {
       "type": "blog-with-text",
+      "disabled": true,
       "custom_css": [
-        ".palette--light {background-color: #9a7e45;}",
+        ".palette--light {background-color: #f6f5f3;}",
         ".rte-setting p {color: white;}",
-        ".h3 {font-family: \"Neue Haas Unica\", sans-serif; font-weight: 700; font-style: normal; line-height: 1.65; font-size: 37px;}",
+        ".h3 {font-family: \"Montesrrat\", sans-serif; font-weight: 700; font-style: normal; line-height: 1.65; font-size: 37px;}",
         "p {font-size: 13px; font-weight: 700; font-style: normal; font-stretch: normal; line-height: 1.31; letter-spacing: normal;}"
       ],
       "settings": {
@@ -272,13 +277,13 @@
         "grid": 1,
         "aspect_ratio": 1,
         "show_meta": true,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "show_tags": false,
         "show_view_all": false,
         "bg_position": "center-center",
         "layout": "right",
-        "title": "the golden",
-        "text": "<p>health, changing bodies, and getting older with a partner.<\/p>",
+        "title": "Wellness",
+        "text": "<p>Self-care, holistic techniques, relaxation, meditation and more.<\/p>",
         "logotext": "",
         "text2": "",
         "color_text_bg": "palette--light bg--accent",
@@ -289,7 +294,7 @@
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
         "padding_top": 72,
-        "padding_bottom": 180
+        "padding_bottom": 120
       }
     }
   },

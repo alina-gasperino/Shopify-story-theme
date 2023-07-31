@@ -2,10 +2,87 @@
   "sections": {
     "main": {
       "type": "article",
-      "settings": {}
+      "settings": {
+        "meta": true,
+        "tags": false,
+        "arrows": false,
+        "social": true,
+        "share_label": "Share",
+        "image_height": "use_image",
+        "sidebar_tags": true,
+        "recent": false,
+        "recent_author": true,
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "7a9d6e60-f7c2-4a87-963b-c746012f09d0": {
+      "type": "section-collection",
+      "custom_css": [
+        ".grid__caption {background: transparent;}"
+      ],
+      "settings": {
+        "title": "Related Products",
+        "description": "",
+        "collection": "flowio-bestseller",
+        "grid": 4,
+        "limit": 8,
+        "enable_slider": true,
+        "color_bg": "palette--light bg--accent",
+        "show_view_all": false,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a2f62311-7df5-4dd9-a9ad-6cc81bd9613a": {
+      "type": "section-newsletter",
+      "custom_css": [
+        ".newsletter__wrapper {background-color: transparent;}",
+        ".input-group-field {color: #fff; border-bottom: solid 1px #fff; text-align: center;}"
+      ],
+      "settings": {
+        "title": "",
+        "richtext": "<p>Get inspired by design, relaxing self care tips, plus a look into our limited edition \"Dope Shit\" collection and the creators behind it.<\/p>",
+        "success": "",
+        "text_color": "text--white",
+        "color_bg": "palette--light bg--neutral",
+        "button_color": "btn--white",
+        "button_style": "btn--soft",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fad36c32-cd2b-4808-82dd-01dc3ccb0980": {
+      "type": "section-blog",
+      "custom_css": [
+        ".h3 {font-size: 22px; color: #52493f; line-height: 26px;}",
+        ".article__card__title,.article__card__text {color: #52493f;}"
+      ],
+      "settings": {
+        "title": "Related",
+        "index_blog": "news",
+        "limit": 6,
+        "grid": 4,
+        "aspect_ratio": 1,
+        "show_meta": false,
+        "show_excerpt": false,
+        "show_tags": false,
+        "show_view_all": false,
+        "color_bg": "palette--light bg--accent",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7a9d6e60-f7c2-4a87-963b-c746012f09d0",
+    "a2f62311-7df5-4dd9-a9ad-6cc81bd9613a",
+    "fad36c32-cd2b-4808-82dd-01dc3ccb0980"
   ]
 }

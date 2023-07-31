@@ -2593,11 +2593,6 @@ label[for] {
   cursor: pointer
 }
 
-option {
-  color: var(--text);
-  background-color: var(--bg)
-}
-
 [tabindex="-1"]:focus {
   outline: 0
 }
@@ -10156,13 +10151,6 @@ a {
   background: 0 0
 }
 
-.text-link:focus,
-.text-link:hover,
-a:focus,
-a:hover {
-  color: currentcolor
-}
-
 .text-link {
   color: var(--secondary);
   position: relative;
@@ -10362,46 +10350,6 @@ button+.border-bottom-link {
   background-color: var(--btn-bg);
   color: var(--btn-text);
   transition: all .5s cubic-bezier(.215, .61, .355, 1)
-}
-
-.btn--soft:active,
-.btn--soft:focus,
-.btn--soft:hover,
-.btn:active,
-.btn:focus,
-.btn:hover,
-.product__form--buybutton .product__submit__add:active,
-.product__form--buybutton .product__submit__add:focus,
-.product__form--buybutton .product__submit__add:hover,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add:active,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add:focus,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add:hover,
-.shopify-payment-button .shopify-payment-button__button--unbranded:active,
-.shopify-payment-button .shopify-payment-button__button--unbranded:focus,
-.shopify-payment-button .shopify-payment-button__button--unbranded:hover {
-  color: var(--btn-text-hover);
-  background-color: var(--btn-bg-hover)
-}
-
-.btn,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add,
-.shopify-payment-button .shopify-payment-button__button--unbranded {
-  box-shadow: 0 4px 6px var(--btn-shadow), 0 1px 3px var(--btn-shadow)
-}
-
-.btn:focus,
-.btn:hover,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add:focus,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add:hover,
-.shopify-payment-button .shopify-payment-button__button--unbranded:focus,
-.shopify-payment-button .shopify-payment-button__button--unbranded:hover {
-  box-shadow: 0 7px 14px var(--btn-shadow), 0 3px 6px var(--btn-shadow)
-}
-
-.btn:active,
-.product__form__outer:not(.product__form--buybutton) .product__submit__add:active,
-.shopify-payment-button .shopify-payment-button__button--unbranded:active {
-  box-shadow: 0 1px 3px var(--btn-shadow), 0 1px 2px var(--btn-shadow)
 }
 
 .btn--neutral.btn,
@@ -10923,7 +10871,6 @@ textarea {
 }
 
 .form__field label {
-  background: var(--bg);
   color: var(--text-light);
   font-size: calc(12px * var(--FONT-ADJUST-BODY));
   font-weight: var(--FONT-WEIGHT-BODY-BOLD);
@@ -10975,10 +10922,10 @@ textarea {
 }
 
 .input-group {
-  background-color: var(--bg);
+  background-color: transparent;
   position: relative;
   display: flex;
-  padding: 4px
+  padding: 0px
 }
 
 .input-group .btn,
@@ -11013,8 +10960,13 @@ textarea {
 }
 
 .input-group .input-group-field {
-  width: 100%;
-  margin-bottom: 0
+  width: 100%;;
+  margin-bottom: 0;
+  background: transparent;
+  padding: 9px 0;
+  font-size: 13px;
+  color: #262514;
+  border-radius: 0;
 }
 
 .input-group-btn {
@@ -12539,7 +12491,7 @@ form .errors ul {
   height: 21px
 }
 
-.header__cart__status {
+.cart__status[data-cart-count="0"] {
   display: none
 }
 
@@ -12548,8 +12500,8 @@ form .errors ul {
   fill: rgba(255, 255, 255, 0)
 }
 
-.header__desktop__buttons--icons .header__cart__status:not([data-cart-count="0"])+.icon-basket .filled-cart,
-.header__mobile__button .header__cart__status:not([data-cart-count="0"])+.icon-basket .filled-cart {
+.header__desktop__buttons--icons .cart__status:not([data-cart-count="0"])+.icon-basket .filled-cart,
+.header__mobile__button .cart__status:not([data-cart-count="0"])+.icon-basket .filled-cart {
   fill: var(--primary)
 }
 
@@ -13756,7 +13708,7 @@ form .errors ul {
   left: 0;
   height: 100%;
   width: 75vw;
-  max-width: 580px;
+  max-width: 500px;
   background: var(--bg);
   border-right: 1px solid var(--border);
   box-shadow: 0 2px 8px rgba(0, 0, 0, .06), 0 3px 12px rgba(0, 0, 0, .02);
@@ -15044,9 +14996,6 @@ form .errors ul {
 
 .article__card__title {
   display: block;
-  color: var(--text-dark);
-  font-weight: var(--FONT-WEIGHT-BODY-MID);
-  line-height: 1.2;
   margin-bottom: .5em;
   margin-top: 8px
 }
@@ -17727,13 +17676,10 @@ html.no-js .quantity__button {
 }
 
 .accordion__title {
-  font-size: calc(var(--font-5) * var(--FONT-ADJUST-BODY));
-  font-weight: var(--FONT-WEIGHT-BODY-MID);
   display: block;
   text-align: left;
   width: 100%;
   position: relative;
-  padding: 1.5rem 30px 1.5rem 0;
   margin: 0;
   cursor: pointer;
   white-space: normal
@@ -19688,26 +19634,6 @@ body .shopify-email-marketing-confirmation__container {
   flex-direction: column
 }
 
-.cart__circle {
-  background-color: var(--primary);
-  border-radius: 100%;
-  width: 160px;
-  height: 160px;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--bg);
-  transition: opacity linear 1.2s, box-shadow linear .8s;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .06), 0 3px 12px rgba(0, 0, 0, .02)
-}
-
-.cart__circle svg {
-  transition: opacity linear 1.2s;
-  fill: currentcolor;
-  width: 3em;
-  height: 3em
-}
 
 .cart__continue__link {
   font-family: var(--FONT-STACK-BODY);
@@ -19728,11 +19654,6 @@ body .shopify-email-marketing-confirmation__container {
   transition: width .9s ease;
   bottom: -4px;
   height: 3px
-}
-
-.cart__circle__wrapper:hover .cart__circle {
-  opacity: .9;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .06), 0 3px 16px rgba(0, 0, 0, .02)
 }
 
 .cart__circle__wrapper:hover .cart__continue__link:after {
@@ -20001,17 +19922,6 @@ body .shopify-email-marketing-confirmation__container {
     grid-area: quantity;
     display: flex;
     justify-self: center
-  }
-
-  .cart__template .cart__items__savings {
-    grid-area: savings
-  }
-
-  .cart__template .cart__items__remove {
-    grid-area: remove;
-    position: relative;
-    top: initial;
-    right: initial
   }
 
   .cart__template .cart__remove__icon {
@@ -20587,12 +20497,6 @@ body .shopify-email-marketing-confirmation__container {
   border-bottom-left-radius: 3px
 }
 
-.cart__items__remove {
-  position: absolute;
-  top: var(--gutter);
-  right: var(--gutter)
-}
-
 .cart__items__grid {
   display: grid;
   grid-template-areas: "image title" "image price" "image quantity" "below  below";
@@ -20625,7 +20529,7 @@ body .shopify-email-marketing-confirmation__container {
 }
 
 .cart__items__title a {
-  color: var(--text-dark)
+  color: #52493f;
 }
 
 .cart__items__title__product {
@@ -25979,8 +25883,14 @@ ul.tabs:after {
   color: white;
 }
 
-.jdgm--on {
+.jdgm--on, .jdgm-btn--border, .jdgm-rev__buyer-badge.jdgm-rev__buyer-badge, .jdgm-btn {
   color: #262514 !important;
+}
+div#judgeme_product_reviews .jdgm-write-rev-link.jdgm-write-rev-link {
+  color: #262514;
+}
+div#judgeme_product_reviews .jdgm--on {
+  color: #ffffff !important;
 }
 
 body {
@@ -26367,19 +26277,19 @@ body {
 }
 
 .js__header__stuck .theme__header a {
-  color: black !important;
+  color: #262514 !important;
 }
 
 .js__header__stuck .theme__header:after .navtext {
-  color: black !important;
+  color: #262514 !important;
 }
 
 body.template-product .navtext {
-  color: black;
+  color: #262514;
 }
 
 body.template-product .navlink {
-  color: black;
+  color: #262514;
 }
 
 .slick-prev {
@@ -26606,11 +26516,10 @@ body.template-product .navlink {
 
 .article__card__title {
   white-space: normal;
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-size: 22px;
   line-height: 26px;
-  font-family: "maison_neue_medium" !important;
-  font-weight: 500;
+  font-weight: 700;
   color: white;
 }
 
@@ -26618,7 +26527,7 @@ body.template-product .navlink {
   font-family: "Neue Haas Unica";
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 23px;
   text-transform: none;
   letter-spacing: 0;
@@ -26633,9 +26542,9 @@ body.template-product .navlink {
 }
 
 .article__card__meta span {
-  color: #686158;
-  font-size: 10px;
-  font-weight: 500;
+  color: #8F8E8E;
+  font-size: 13px;
+  font-weight: 700;
   line-height: 1.33;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -26657,7 +26566,7 @@ body.template-product .navlink {
 .collection,
 .main-content,
 .product-section {
-  background: #f6f5f3 !important;
+  background: #f6f5f3;
 }
 
 .article__card__content {
@@ -26750,7 +26659,6 @@ body.template-product {
 
 .input-group-btn {
   background: rgb(48, 59, 67);
-  border-radius: 2px;
   border-style: none;
   border-color: rgb(0, 0, 0);
   border-width: 0px;
@@ -26777,9 +26685,11 @@ body.template-product {
   display: none;
 }
 
-.form__field input,
 .form__field textarea {
   border: 1px solid #b0a99f;
+}
+#estimate_address_zip {
+  background: transparent;
 }
 
 .upsell__image {
@@ -26795,12 +26705,14 @@ body.template-product {
 }
 
 .accordion__title {
-  font-size: 11px !important;
-  font-weight: 500 !important;
+  font-size: 10px;
+  font-weight: 700 !important;
   line-height: 1.33;
   text-transform: uppercase;
-  padding: 26px !important;
+  padding: 26px 0 !important;
   font-family: 'Montserrat';
+  color: #6A6158;
+  letter-spacing: 2px;
 }
 
 .accordion__body p {
@@ -26814,10 +26726,11 @@ body.template-product {
 
 .accordion__body {
   padding: 30px 56px;
+  color: #6a6158;
 }
 
 .header__desktop__upper:hover .navlink {
-  color: #686158 !important;
+  color: #6a6158 !important;
 }
 
 .header__desktop__upper:hover {
@@ -26910,29 +26823,30 @@ body.template-page-about .logo__img--color {
 .backdrop--radial {
   background: none;
   padding: 0px;
-  max-width: calc(100% - var(--outer));
+  max-width: 100%;
   border-radius: var(--RADIUS);
   margin: 16px 0px 0px;
 }
 
 .backdrop--radial .hero__title {
-  font-family: 'Montserrat';
-  font-size: 16px !important;
-  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
   font-weight: 700;
   text-transform: uppercase;
-  color: #262514 !important;
+  color: #52493f;
   margin-bottom: 8px;
 }
 
 .backdrop--radial .hero__description {
-  font-family: 'Montserrat';
+  font-family: "Neue Haas Unica";
   font-weight: 400;
   font-style: normal;
   text-transform: none;
-  letter-spacing: 0;
-  color: #262514 !important;
-  font-size: 16px;
+  color: #52493f;
+  font-size: 12px;
+  letter-spacing: 1.5px;
   line-height: 16px;
 }
 
@@ -27047,58 +26961,9 @@ body.template-page-about .logo__img--color {
   letter-spacing: normal;
 }
 
-.product-description__content span {
+.product-description__content {
   font-size: 14px !important;
   font-family: "Neue Haas Unica" !important;
-  color: #262514 !important;
-  background: transparent !important;
-  font-weight: 400;
-  font-style: normal !important;
-  font-stretch: normal;
-  line-height: 1.31;
-  letter-spacing: normal;
-}
-
-.product-description__content strong {
-  font-size: 14px !important;
-  font-family: "Neue Haas Unica" !important;
-  color: #262514 !important;
-  background: transparent !important;
-  font-weight: 400;
-  font-style: normal !important;
-  font-stretch: normal;
-  line-height: 1.31;
-  letter-spacing: normal;
-}
-
-.product-description__content a {
-  font-size: 14px !important;
-  font-family: "Neue Haas Unica" !important;
-  color: #262514 !important;
-  background: transparent !important;
-  font-weight: 400;
-  font-style: normal !important;
-  font-stretch: normal;
-  line-height: 1.31;
-  letter-spacing: normal;
-}
-
-.product-description__content li {
-  font-size: 14px !important;
-  font-family: "Neue Haas Unica" !important;
-  color: #262514 !important;
-  background: transparent !important;
-  font-weight: 400;
-  font-style: normal !important;
-  font-stretch: normal;
-  line-height: 1.31;
-  letter-spacing: normal;
-}
-
-.product-description__content div {
-  font-size: 14px !important;
-  font-family: "Neue Haas Unica" !important;
-  color: #262514 !important;
   background: transparent !important;
   font-weight: 400;
   font-style: normal !important;
@@ -27116,10 +26981,15 @@ body.template-page-about .logo__img--color {
 }
 
 .prdt-grid {
-  height: 520px !important;
+  height: 600px !important;
   display: flex !important;
 }
-
+.template-article .prdt-grid {
+  height: 650px !important;
+}
+.template-article .section-blog__inner {
+  justify-content: center;
+}
 .prdt-grid .product-grid-item {
   flex-grow: 1;
   display: flex;
@@ -27180,7 +27050,6 @@ body.template-page-about .logo__img--color {
 
 .template-product .product-description__content span {
   font-size: 14px;
-  color: #262514;
   font-family: "Neue Haas Unica";
   font-weight: 400;
   font-style: normal;

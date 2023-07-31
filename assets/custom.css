@@ -1,3 +1,16 @@
+@keyframes pulse-opacity { 
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+ 
+    100% {
+        opacity: 1;
+    }
+}
 .header__dropdown__image img {
     height: 250px;
     width: 100%;
@@ -33,6 +46,10 @@
 .radio__button input:checked~label {
     background-color: #262514;
     color: #fff;
+}
+.radio__button input~label {
+    border: solid 1px #262514;
+    color: #262514;
 }
 .rc-subscription-details {
     display: none !important;
@@ -98,4 +115,307 @@ section.section-custom_fields {
 .collection_top h3 {
     font-size: 36px;
     color: #262514;
+}
+.product__title__wrapper .rating__wrapper__title {
+    display: none;
+}
+.btn_all {
+    font-size: 14px;
+    background: #fff;
+    padding: 10px 120px;
+    border-radius: 36px;
+    color: #262514;
+}
+.input-group .input-group-field::placeholder {
+    font-size: 10px;
+}
+.featured-collection-tabs ul.tabs li a.active {
+    color: #52493f;
+    border-bottom: 2px solid #52493f;
+}
+.featured-collection-tabs ul.tabs li a {
+    color: #52493f;
+}
+article.article__body {
+    display: grid;
+    grid-template-columns: 1fr 8fr 12fr;
+    padding: 0 60px;
+    margin-bottom: 0;
+}
+.article_content {
+    padding-right: 60px;
+}
+.article__title {
+    font-size: 37px;
+    color: #262514;
+}
+.article__meta {
+    display: flex;
+    gap: 30px;
+    border-bottom: solid 1px #232313;
+    margin-top: 30px;
+}
+p.meta-light {
+    font-size: 10px;
+    color: #a9a6a6;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+p.meta-dark {
+    font-size: 16px;
+    color: #262514;
+    font-family: "Neue Haas Unica";
+    font-weight: 400;
+    margin: 4px 0 12px;
+}
+.rte.rte--article {
+    font-size: 16px;
+    color: #262514;
+}
+.article__image__feature, .product-content .thumbnails-wrapper, .product-content .main-image-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: min-content;
+}
+.newsletter__wrapper .newsletter-form {
+    border: none;
+    gap: 10px;
+}
+.drawer__content, .cart__drawer .drawer__top, .drawer__accordion {
+    background: #f6f5f3;
+}
+.cart_related_body {
+    background: #ded9d3;
+    padding: 20px;
+}
+.cart_related_body h3 {
+    color: #52493f;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-bottom: 24px;
+}
+.cart_related {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.cart_related .grid__caption {
+    background: transparent;
+}
+.badge-bold {
+    background: transparent;
+}
+.product__submit__buttons .product__submit__add:hover {
+    border: solid 1px #262514;
+}
+.grid__item_related {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cart__status {
+    position: absolute;
+    top: 2px;
+    right: -6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+    background: #bd7d63;
+    font-size: 0;
+}
+.custom-form__button {
+    color: #fff;
+}
+.popup .close svg path {
+    fill: #fff;
+}
+.customer.register h1 {
+    color: #fff;
+}
+button#Process-wholesale-button {
+    background: #fff;
+    width: 100%;
+    border-radius: 50px;
+}
+.collection-grid-item__content p {
+    font-size: 14px;
+    line-height: 1.31;
+    color: #fff;
+    text-align: left;
+    transform: translateY(16px);
+    transition: opacity 0.5s ease-in-out, transform 0.75s ease-in-out;
+    max-width: 300px;
+    opacity: 0;
+}
+.collection-grid-item__content:hover p {
+    opacity: 1;
+}
+.desktop_video {
+    display: block;
+}
+.mobile_video {
+    display: none;
+}
+.drawer__header {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #f6f5f3;
+    border-color: #b2a9a0;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 18px 24px;
+}
+.announcement__bar_txt {
+    margin-top: 8px;
+}
+.announcement__bar_txt p {
+    font-size: 14px;
+    margin: 0;
+}
+.shipping_progress {
+    position: relative;
+    margin: 10px 0 0;
+    border-radius: 10px;
+    background: #eee;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+}
+.shipping_fill_bar {
+    background-color: #52493f;
+    animation: pulse-opacity 1s infinite;
+    transition: all .25s ease;
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    margin: 0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    width: 100%;
+}
+.cart__items__row {
+    display: block;
+    margin: 0;
+    border: none;
+}
+.cart__items__grid {
+    display: flex;
+    gap: 20px;
+}
+.cart__items__image {
+    width: 96px;
+}
+.cart_item_info {
+    width: calc(100% - 96px);
+    display: flex;
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    display: box;
+    display: flex;
+    display: -moz-flex;
+    display: flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    position: relative;
+    margin: 0;
+}
+.cart__items__title {
+    display: block;
+    width: 100%;
+    padding-right: 56px;
+}
+.cart__items__price {
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+.cart__items__quantity {
+    margin: 10px 0 0;
+    padding: 0;
+    width: 50%;
+    text-align: left;
+}
+.cart__items__quantity .quantity__wrapper {
+    margin: 0;
+    border-radius: 24px;
+    border: solid 1px #b2a9a0;
+    width: 100%;
+    max-width: 120px;
+}
+.cart__items__quantity .quantity__input {
+    font-size: 10px;
+    height: auto;
+}
+a.cart__items__remove {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 24px;
+    margin-top: 12px;
+    color: #b2a9a0;
+}
+.cart__items__title__product {
+    font-size: 14px;
+}
+.line__price {
+    font-size: 14px;
+    color: #52493f;
+    font-family: "Neue Haas Unica";
+}
+.checkout__button {
+    padding: 8px 15px 10px;
+    border-radius: 36px;
+    font-size: 16px;
+}
+.cart_related_body .btn-state-ready span:nth-child(2) {
+    display: none;
+}
+.cart__circle {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .desktop_video {
+        display: none;
+    }
+    .mobile_video {
+        display: block;
+    }
 }

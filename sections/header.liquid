@@ -151,9 +151,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
 {% endcapture %}
 
 {% capture cart_status %}
-  <span class="header__cart__status" data-cart-count="{{ cart.item_count }}">
-    {{ cart.item_count }}
-  </span>
+  <span class="cart__status" data-cart-count="{{ cart.item_count }}"></span>
 {% endcapture %}
 
 {% capture toolbar %}

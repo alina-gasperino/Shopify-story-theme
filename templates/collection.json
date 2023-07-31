@@ -2,12 +2,13 @@
   "sections": {
     "135437ac-7eec-43b2-bbbd-73037bcd9929": {
       "type": "section-hero",
+      "disabled": true,
       "settings": {
         "image": "{{ collection.image }}",
         "bg_position": "center-center",
         "height": "use_pixels_500",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "flex_align": "align--middle-left",
         "align_text": "text-left",
         "color": "text--white",
@@ -24,7 +25,7 @@
         "collections": {
           "type": "heading",
           "settings": {
-            "text_size": 5
+            "text_size": 4
           }
         },
         "filters": {

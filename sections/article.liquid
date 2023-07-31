@@ -55,7 +55,76 @@ You can learn more about this (and learn how to cleanly revert these changes) at
         </ul>
       </div>
 
-      <article class="article__body grid__item {{ blog_grid }}" role="article">
+      <article class="article__body grid__item" role="article">
+        <div class="article--social">
+          {%- assign social_accounts = 'Instagram, TikTok, Snapchat, Facebook, Twitter, Pinterest, Linkedin, Tumblr, YouTube, Vimeo' | split: ', ' -%}
+          {% for social in social_accounts %}
+            {%- assign social_handle = social | handleize -%}
+            {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
+  
+            {% if settings[social_link] != blank %}
+              <a class="footer__icon footer__icon--social" href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}" target="_blank">
+                {% render 'social', social_handle: social_handle %}
+                <span class="icon-fallback-text">{{ social }}</span>
+              </a>
+            {% endif %}
+          {% endfor %}
+  
+          {% for custom_social_icon_idx in (1..3) %}
+            {% capture custom_social_icon_capture %}custom_social_icon_{{ custom_social_icon_idx }}{% endcapture %}
+            {% capture custom_social_link_capture %}custom_social_link_{{ custom_social_icon_idx }}{% endcapture %}
+            {%- assign custom_social_icon = settings[custom_social_icon_capture] -%}
+            {%- assign custom_social_icon_downcase = custom_social_icon | downcase -%}
+            {%- assign custom_social_link = settings[custom_social_link_capture] -%}
+            {%- if custom_social_icon != blank and custom_social_link != blank and custom_social_icon_downcase contains '.png' -%}
+              {%- assign custom_social_icon_title = custom_social_icon.alt | default: custom_social_link -%}
+              <a class="footer__icon footer__icon--social" href="{{ custom_social_link }}" title="{{ custom_social_icon_title }}" target="_blank">
+                <img
+                  loading="lazy"
+                  alt="{{ custom_social_icon_title | strip_html | escape }}"
+                  src="{{ custom_social_icon | img_url: '40x40' }}"
+                  width="20"
+                  height="20">
+                <span class="icon-fallback-text">{{ custom_social_icon_title }}</span>
+              </a>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+        <div class="article_content">
+          <header role="banner">
+            <h1 class="h3 article__title">{{ article.title }}</h1>
+            {% if section.settings.meta %}
+              <div class="article__meta">
+                <div>
+                  <p class="meta-light">published</p>
+                  <p class="meta-dark">{{ article.published_at | date: format: 'month_day_year' }}</p>
+                </div>
+                <div>
+                  <p class="meta-light">author</p>
+                  <p class="meta-dark">{{ article.author }}</p>
+                </div>
+              </div>
+            {% endif %}
+          </header>
+
+          <div class="rte rte--article">
+            {{ article.content }}
+          </div>
+
+          {% if section.settings.tags %}
+            {% if article.tags.size > 0 %}
+              <div class="article__tags">
+                {% for tag in article.tags %}
+                  <a class="btn btn--pill" href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endif %}
+
+          {% if section.settings.social %}
+            {% render 'share' article: article, label: section.settings.share_label %}
+          {% endif %}
+        </div>
 
         {% if article.image %}
           {%- assign img_url = article.image.src | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
@@ -78,36 +147,6 @@ You can learn more about this (and learn how to cleanly revert these changes) at
               <img src="{{ article.image | img_url: '720x' }}" alt="{{ article.image.alt | default: article.title }}" class="responsive-wide-image"/>
             </noscript>
           </div>
-        {% endif %}
-
-        <header role="banner">
-          <h1 class="h3 article__title">{{ article.title }}</h1>
-          {% if section.settings.meta %}
-            <p class="article__meta">
-              <span class="meta--light">{{ 'blogs.article.by' | t }}</span>
-              <span class="meta--dark">{{ article.author }}</span>
-              <span class="meta--light">{{ 'blogs.article.on' | t }}</span>
-              <span class="meta--dark">{{ article.published_at | date: format: 'month_day_year' }}</span>
-            </p>
-          {% endif %}
-        </header>
-
-        <div class="rte rte--article">
-          {{ article.content }}
-        </div>
-
-        {% if section.settings.tags %}
-          {% if article.tags.size > 0 %}
-            <div class="article__tags">
-              {% for tag in article.tags %}
-                <a class="btn btn--pill" href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
-              {% endfor %}
-            </div>
-          {% endif %}
-        {% endif %}
-
-        {% if section.settings.social %}
-          {% render 'share' article: article, label: section.settings.share_label %}
         {% endif %}
 
         {% if section.settings.arrows %}
