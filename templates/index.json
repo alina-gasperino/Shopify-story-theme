@@ -52,6 +52,7 @@
       ],
       "settings": {
         "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d6b906e2edae4fc88ac08aae4101908d.mp4",
+        "video_link_bg_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c44d33be0cdd47bb8ac36b77830dad50.mp4",
         "object_position": "center-center",
         "bg_position": "center-center",
         "height": "use_screen_three_quarters",
@@ -289,7 +290,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/imgonline-com-ua-convertm1UIXZNXmnUt.jpg",
-        "bg_position": "center-center",
+        "bg_position": "right-center",
         "aspect_ratio": 1.3,
         "layout": "right",
         "title": "",
@@ -302,9 +303,9 @@
         "button_style": "btn",
         "button_color": "btn--black",
         "color_bg": "palette--light bg--neutral",
-        "width": "wrapper--full",
-        "padding_top": 62,
-        "padding_bottom": 60
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "d87bf21e-6e90-4a85-9b03-53ddf0bad4a8": {
@@ -361,7 +362,6 @@
         ".grid__item {padding: 0px;}",
         ".collection-grid-item__title h5 {font-size: 20px; line-height: 1.4; color: white; text-transform: lowercase;}",
         ".grid :nth-child(3) .lazyloaded {background-position: bottom center !important;}",
-        "p {font-size: 14px; line-height: 1.31; color: #fff; text-align: left; transform: translateY(16px); transition: opacity 0.5s ease-in-out, transform 0.75s ease-in-out; max-width: 300px; opacity: 0;}",
         ".image__fill {padding-top: 75% !important;}",
         ".cstm-col-btn {padding: 8px 32px; color: #262514;}"
       ],

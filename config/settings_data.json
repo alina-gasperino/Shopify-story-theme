@@ -68,7 +68,6 @@
     "product_grid_show_rating_count": true,
     "currency_code_enable": false,
     "favicon": "shopify:\/\/shop_images\/1.png",
-    "checkout_header_image": "shopify:\/\/shop_images\/CheckoutDiscountCoupon-3.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/check_logo.png",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#f6f5f3",
@@ -336,6 +335,11 @@
           "cards_background": "#FFFFFF",
           "cards_border_color": "rgba(0,0,0,0)"
         }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
