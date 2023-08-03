@@ -3565,7 +3565,7 @@ body.focus-enabled :focus {
   }
 
   .mobile--nine-tenths {
-    width: 90%
+    width: 100%
   }
 
   .mobile--one-twelfth {
@@ -18229,7 +18229,7 @@ html.no-js .quantity__button {
 
 .inline-nav li a {
   font-weight: var(--FONT-WEIGHT-BODY-MID);
-  color: #262514;
+  color: #52493f;
   transition: color .25s linear;
   position: relative
 }
@@ -18242,7 +18242,7 @@ html.no-js .quantity__button {
   position: absolute;
   bottom: -4px;
   left: 0;
-  background: #262514;
+  background: #52493f;
   box-shadow: 0 1px 3px var(--primary-shadow), 0 1px 2px var(--primary-shadow);
   transform: scaleX(0);
   transform-origin: 100% 50%;
@@ -18251,7 +18251,7 @@ html.no-js .quantity__button {
 
 .inline-nav li a:hover,
 .inline-nav li.inline-nav--active a {
-  color: var(--text-dark)
+  color: #52493f;
 }
 
 .inline-nav li a:hover:after,
@@ -25538,7 +25538,7 @@ ul.tabs li a {
   font-size: 16px;
   line-height: 1.31;
   height: 29px;
-  margin: 0 20px !important;
+  margin: 0 20px;
   text-decoration: none;
   width: auto;
   color: #262514;
@@ -26198,8 +26198,8 @@ body {
   font-size: 16px;
   line-height: 1.31;
   position: relative;
-  font-family: "Neue Haas Unica";
-  font-weight: 500;
+  font-family: "Montserrat";
+  font-weight: 400;
 }
 
 .inline-nav {
@@ -26524,7 +26524,7 @@ body.template-product .navlink {
 
 .article__card__meta span {
   color: #8F8E8E;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 700;
   line-height: 1.33;
   text-transform: uppercase;
