@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "",
-            "text_size": 7
+            "text_size": 10
           }
         },
         "b378b7a7-fafe-4a76-8ab2-a13145ecc788": {
@@ -217,7 +217,7 @@
             "title": "Bestsellers",
             "description": "<p>Luxurious, high quality sensory<br\/>incense products crafted for the<br\/>ultimate self care experience<\/p>",
             "collection": "flowio-bestseller",
-            "btntext": "bestseller",
+            "btntext": "Shop bestseller",
             "btnurl": "shopify:\/\/collections\/flowio-bestseller"
           }
         },
@@ -239,7 +239,7 @@
             "title": "scents + wellness",
             "description": "<p>Use this area to describe the collection.<\/p>",
             "collection": "home-fragrance-wellness",
-            "btntext": "scents + wellness",
+            "btntext": "Shop scents + wellness",
             "btnurl": "shopify:\/\/collections\/home-fragrance-wellness"
           }
         },
@@ -250,7 +250,7 @@
             "title": "decor",
             "description": "<p>Luxurious, high quality sensory<br\/>incense products crafted for the<br\/>ultimate self care experience.<\/p>",
             "collection": "home-decor",
-            "btntext": "decor",
+            "btntext": "Shop decor",
             "btnurl": "shopify:\/\/collections\/home-decor"
           }
         }
@@ -262,8 +262,8 @@
         "template--16217786450088__b22654b7-5011-49df-80e3-ad4195f4d205-16864156815f6d442d-0"
       ],
       "custom_css": [
-        ".h3 {font-size: 28px; line-height: 1.4; display: inline-block; font-weight: 500; font-family: \"Montserrat\"; color: #6a6158; text-transform: lowercase;}",
-        ".index__collection__subtitle p {margin: 0.5rem 0 0; font-size: 14px; color: #6a6158; font-weight: 400; line-height: 1.31; letter-spacing: normal; font-family: \"Montserrat\";}",
+        ".h3 {font-size: 28px; line-height: 1.4; font-weight: 500; font-family: \"Montserrat\"; color: #6a6158; text-transform: lowercase;}",
+        ".index__collection__subtitle p {margin: 0.5rem 0 0; font-size: 14px; color: #6a6158; font-weight: 400; line-height: 1.31; letter-spacing: normal;}",
         ".slick-track {display: flex; flex-wrap: nowrap; justify-content: start; align-items: center;}"
       ],
       "settings": {
@@ -303,8 +303,8 @@
         "button_style": "btn",
         "button_color": "btn--black",
         "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 0,
+        "width": "wrapper--full",
+        "padding_top": 44,
         "padding_bottom": 0
       }
     },
@@ -362,8 +362,7 @@
         ".grid__item {padding: 0px;}",
         ".collection-grid-item__title h5 {font-size: 20px; line-height: 1.4; color: white; text-transform: lowercase;}",
         ".grid :nth-child(3) .lazyloaded {background-position: bottom center !important;}",
-        ".image__fill {padding-top: 75% !important;}",
-        ".cstm-col-btn {padding: 8px 32px; color: #262514;}"
+        ".image__fill {padding-top: 75% !important;}"
       ],
       "settings": {
         "title": "",

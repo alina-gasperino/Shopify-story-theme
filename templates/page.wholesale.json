@@ -37,6 +37,10 @@
       "block_order": [
         "c4036f93-61be-4897-ad98-8d1cd35d623d"
       ],
+      "custom_css": [
+        "input {background-color: transparent; max-width: 100%; padding: 9px 16px; margin: 7px 0;}",
+        "span {color: #262615;}"
+      ],
       "settings": {
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",

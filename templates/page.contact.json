@@ -146,7 +146,7 @@
         "accordion_4"
       ],
       "custom_css": [
-        ".h4--body {text-align: center; text-transform: uppercase;}"
+        ".h4--body {text-align: center; text-transform: uppercase; color: #262615; font-family: \"Montserrat\";}"
       ],
       "settings": {
         "title": "Contact Us",
