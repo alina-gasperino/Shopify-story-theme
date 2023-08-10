@@ -67,7 +67,7 @@
       "settings": {
         "bg": "palette--light bg--neutral",
         "pagination_count": 20,
-        "grid_setting_large": 4,
+        "grid_setting_large": 3,
         "grid_setting_medium": 3,
         "grid_setting_small": 2,
         "show_collection_nav": true,

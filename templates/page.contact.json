@@ -146,7 +146,7 @@
         "accordion_4"
       ],
       "custom_css": [
-        ".h4--body {text-align: center; text-transform: uppercase; color: #262615; font-family: \"Montserrat\";}"
+        ".h4--body {text-align: center; text-transform: uppercase; color: #52493f; font-size: 20px; font-family: \"Montserrat\";}"
       ],
       "settings": {
         "title": "Contact Us",
@@ -189,7 +189,7 @@
       ],
       "custom_css": [
         ".palette--light {background: #f6f5f3;}",
-        "h3 {line-height: 1.4; color: #52493f;}"
+        "h3 {line-height: 1.4; color: #52493f; font-size:20px;}"
       ],
       "settings": {
         "align_text": "text-center",

@@ -443,8 +443,19 @@ a.cart__items__remove {
 #wholesale .theme__header a {
     color: #262615;
 }
-.customer.register h1 {
+.customer.register h1, .shopify-policy__title h1, .shopify-policy__body h1 {
     color: #262615;
+    font-size: 20px !important;
+}
+body .shopify-policy__container {
+    margin: 0 auto;
+    padding: 64px 40px;
+}
+.header__dropdown .header__grandparent__links .navlink:hover span {
+    color: #bd7d63;
+}
+.cart_related_body .product__subs__wrap, .prdt-grid .product__subs__wrap {
+    display: none;
 }
 @media screen and (max-width: 500px) {
     .desktop_video {

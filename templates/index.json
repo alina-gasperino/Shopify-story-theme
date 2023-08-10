@@ -48,7 +48,7 @@
         ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 16px; line-height: normal; border-radius: 36px; padding: 6px 36px; color: #6a6158; border: 1px solid white; margin-top: 20px; background-color: white;}",
         ".hero__btn:hover {background: transparent; color: white;}",
         ".text__standard {max-width: 600px;}",
-        "p {margin-bottom: 0;}"
+        "p {margin-bottom: 0; margin-top: 0;}"
       ],
       "settings": {
         "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d6b906e2edae4fc88ac08aae4101908d.mp4",
@@ -58,7 +58,7 @@
         "height": "use_screen_three_quarters",
         "overlay_opacity": 50,
         "overlay_color": "#000000",
-        "flex_align": "align--middle-left",
+        "flex_align": "align--bottom-left",
         "color": "text--white",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
@@ -73,7 +73,7 @@
         "bb2b37d7-2d1c-4d31-887b-3d2a3067ff83": {
           "type": "kicker",
           "settings": {
-            "kicker": "<p>modern intimacy<\/p>",
+            "kicker": "",
             "enable_caps": false,
             "text_size": 4
           }
@@ -81,14 +81,14 @@
         "banner-heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>spring showers.<\/strong><\/p>",
+            "heading": "",
             "text_size": 13
           }
         },
         "banner-text": {
           "type": "text",
           "settings": {
-            "text": "<p>Go beyond the bedroom with made-to-share essentials.<\/p>",
+            "text": "",
             "text_size": 4,
             "text_columns": 1
           }
@@ -171,6 +171,7 @@
         },
         "b24182ff-773f-46d9-8ae0-c51d86a64735": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design-7.png",
             "link": "",
@@ -217,7 +218,7 @@
             "title": "Bestsellers",
             "description": "<p>Luxurious, high quality sensory<br\/>incense products crafted for the<br\/>ultimate self care experience<\/p>",
             "collection": "flowio-bestseller",
-            "btntext": "Shop bestseller",
+            "btntext": "Shop bestsellers",
             "btnurl": "shopify:\/\/collections\/flowio-bestseller"
           }
         },
@@ -285,7 +286,7 @@
         ".overlap__text {width: 60%;}",
         ".overlap__item {background: #262514;}",
         "h3 {color: white; font-size: 24px;}",
-        ".overlap__content__wrapper {margin-left: 25%; color: white;}",
+        ".overlap__content__wrapper {margin-left: 25%; margin-right: 15%; color: white;}",
         ".image__fill {padding-top: 75% !important; height: 100%;}"
       ],
       "settings": {
@@ -481,7 +482,7 @@
       ],
       "settings": {
         "heading1": "",
-        "heading2": "SOULDESIGN",
+        "heading2": "SOULDESIGN1",
         "desc1": "<p>Get inspired by design, relaxing self care tips, plus a look into our limited edition \"Dope Shit\" collection and the creators behind it.<\/p>",
         "linktext1": "discover",
         "link1": "shopify:\/\/blogs\/news"

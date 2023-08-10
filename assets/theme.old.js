@@ -2112,6 +2112,7 @@
               } else {
                   this.init().then(()=>this.loadHTML()
                   );
+                 
               }
           }).bind(this));
           if (this.drawer) {

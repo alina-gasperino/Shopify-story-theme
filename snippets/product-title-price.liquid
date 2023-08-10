@@ -39,7 +39,7 @@
   <div class="product__price__wrap">
     <div class="product__price__main" data-price-wrapper>
       <span class="product__price">
-        <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}>
+        <span>
           {%- if settings.currency_code_enable -%}
             {{ current_variant.price | money_with_currency }}
           {%- else -%}

@@ -10349,7 +10349,6 @@ button+.border-bottom-link {
   --btn-text-hover: var(--bg);
   background-color: var(--btn-bg);
   color: var(--btn-text);
-  transition: all .5s cubic-bezier(.215, .61, .355, 1)
 }
 
 .btn--neutral.btn,
@@ -15947,7 +15946,8 @@ form .errors ul {
   height: 24px;
   border-radius: 100%;
   border: 3px solid var(--bg);
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
 .swatch__button input:disabled:hover,
@@ -26995,10 +26995,6 @@ body.template-page-about .logo__img--color {
 
 .prdt-grid .form__selectors {
   padding-bottom: 35px;
-}
-
-.combined-paragraph {
-  display: none;
 }
 
 .template-product .breadcrumbs {

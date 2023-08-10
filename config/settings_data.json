@@ -62,13 +62,14 @@
     "show_vendow": "hide-vendor",
     "product_grid_aspect_ratio": 1,
     "product_background_grey": false,
+    "badge_sale": false,
     "badge_sale_discount": false,
     "color_badge_text": "#262514",
     "product_grid_show_rating": true,
     "product_grid_show_rating_count": true,
     "currency_code_enable": false,
     "favicon": "shopify:\/\/shop_images\/1.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/check_logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/CheckoutDiscountCoupon-12.png",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#f6f5f3",
     "checkout_sidebar_background_color": "#ffffff",
@@ -252,7 +253,7 @@
           "enable_account": false,
           "header_sticky": "sticky",
           "transparent_home": true,
-          "transparent_collection": true,
+          "transparent_collection": false,
           "transparent_logo": "shopify:\/\/shop_images\/4.png"
         }
       },
@@ -262,7 +263,6 @@
           ".footer {background: white !important;}"
         ],
         "settings": {
-          "footer_logo": "shopify:\/\/shop_images\/3.png",
           "logo_max_width": 50,
           "footer_description": "",
           "footer_linklist": "main-menu",
