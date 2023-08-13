@@ -68,7 +68,6 @@
     },
     "default-banner": {
       "type": "section-hero",
-      "disabled": true,
       "blocks": {
         "bb2b37d7-2d1c-4d31-887b-3d2a3067ff83": {
           "type": "kicker",
@@ -110,6 +109,7 @@
         "banner-text",
         "banner-button"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__content {margin-left: 13%;}",
         ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 16px; line-height: normal; border-radius: 36px; padding: 12px 56px; color: #262514; border: 1px solid white; margin-top: 20px; background-color: white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}",
@@ -382,7 +382,6 @@
     },
     "74fd3bc7-fd90-42f0-b3f3-9e780320a184": {
       "type": "section-hero",
-      "disabled": true,
       "blocks": {
         "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-0": {
           "type": "heading",
@@ -415,6 +414,7 @@
         "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-1",
         "template--16217786450088__74fd3bc7-fd90-42f0-b3f3-9e780320a184-16858214772ecd8411-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__content {margin-left: 7%;}",
         ".hero__btn {font-family: \"Neue Haas Unica\"; font-weight: 400; font-size: 14px; line-height: normal; border-radius: 36px; padding: 5px 28px 6px; border: 1px solid white; transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86), border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);}",

@@ -16,7 +16,6 @@
     },
     "60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d": {
       "type": "section-hero",
-      "disabled": true,
       "blocks": {
         "871cce47-8899-4091-92d1-6eeba60209d6": {
           "type": "kicker",
@@ -35,6 +34,7 @@
         },
         "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>This area is used to describe your store<\/p>",
             "text_size": 5,
@@ -47,6 +47,7 @@
         "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-0",
         "template--16217786515624__60110cb5-dbbf-4f0d-9f9f-bdbf9725fa2d-16858214772ecd8411-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__content {margin-left: 10%;}"
       ],
@@ -83,6 +84,7 @@
         },
         "cc36eac0-1f6d-4c21-8eae-f8741046dacf": {
           "type": "telephone",
+          "disabled": true,
           "settings": {
             "title": "Phone Number"
           }
@@ -95,7 +97,6 @@
         },
         "accordion_1": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "title": "Back Orders",
             "raw_content": "<p>Products are stocked up on a regular basis.<\/p><p>If a product you want is out of stock, please feel free to shoot us a message with the product you are looking for in the subject line.  We will send you a notifications when they are back in stock!<\/p>"
@@ -103,7 +104,6 @@
         },
         "accordion_5": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "title": "Shipping",
             "raw_content": "<p>We pride ourselves on getting your items to you as quickly as possible. Our standard delivery usually takes between 5-7 business days. However please note that due to transit delays caused by the pandemic, some orders may arrive later than usual.<\/p><p>If your order hasn't arrived after two weeks, please contact us and we will look into the matter.<\/p>"
@@ -111,7 +111,6 @@
         },
         "accordion_2": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "title": "Returns",
             "raw_content": "<p>Our customers are our number one priority and we offer full refunds for unopened unused products. <\/p><p>To make your shopping experience a memorable one, we carefully inspect all items prior to departing our facility. <\/p><p>Please note that customers will be responsible for shipping costs and pieces from the Dope Sh*t Collection can not be returned.<\/p><p>Returns must be in the original packaging undamaged with proof of purchase.<\/p>"
@@ -119,7 +118,6 @@
         },
         "accordion_3": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "title": "Damaged Items",
             "raw_content": "<p>Life happens! If your items arrived damaged, please take photos of the packaging\/products and send them to our customer care team at hello@souldesign1.com within 10 days from delivery for immediate assistance. <\/p>"
@@ -127,7 +125,6 @@
         },
         "accordion_4": {
           "type": "accordion",
-          "disabled": true,
           "settings": {
             "title": "Payment security",
             "raw_content": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.<\/p>"
@@ -189,7 +186,7 @@
       ],
       "custom_css": [
         ".palette--light {background: #f6f5f3;}",
-        "h3 {line-height: 1.4; color: #52493f; font-size:20px;}"
+        "h3 {line-height: 1.4; color: #52493f; font-size: 20px;}"
       ],
       "settings": {
         "align_text": "text-center",
@@ -209,7 +206,7 @@
             "date": "For questions about your order.",
             "story": "",
             "link_text": "hello@souldesign1",
-            "link": "shopify:\/\/pages\/mission"
+            "link": "mailto:hello@souldesign1.com"
           }
         },
         "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-1": {
@@ -219,7 +216,7 @@
             "date": "For press inquiries.",
             "story": "",
             "link_text": "press@souldesign1",
-            "link": "#"
+            "link": "mailto:press@souldesign1.com"
           }
         },
         "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-2": {
@@ -229,7 +226,7 @@
             "date": "For wholesale inquiries.",
             "story": "",
             "link_text": "wholesale@souldesign1",
-            "link": "#"
+            "link": "mailto:wholesale@souldesign1.com"
           }
         },
         "template--16217786515624__17166592-f0dc-40fe-9a5a-248f38abd26a-168582368394600340-3": {
@@ -239,7 +236,7 @@
             "date": "For brands interested in partnerships.",
             "story": "",
             "link_text": "partnerships@souldesign1",
-            "link": "#"
+            "link": "mailto:partnerships@souldesign1.com"
           }
         }
       },

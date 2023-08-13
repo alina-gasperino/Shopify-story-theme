@@ -21,13 +21,13 @@
           "type": "shopify:\/\/apps\/process-wholesale\/blocks\/signup-form\/499e8f52-ed0c-4e9f-858d-3795c1fda878",
           "settings": {
             "wholesaleRegisterText": "wholesale account",
-            "wholesaleLoginText": "Click here if you already have an account.",
+            "wholesaleLoginText": "current customers login here.",
             "pendingAccountMessage": "Thank you! Your wholesale account is currently under review.",
             "pendingAccountMessageColor": "#30383f",
             "alreadyLoggedInAccountMessage": "You are logged into your wholesale account.",
-            "alreadyLoggedInAccountLink": "",
+            "alreadyLoggedInAccountLink": "shopify:\/\/collections\/wholesale",
             "businessNameFieldConfig": "required",
-            "businessAddressFieldConfig": "hide",
+            "businessAddressFieldConfig": "required",
             "taxIDFieldConfig": "required",
             "websiteFieldConfig": "required",
             "moreInfoFieldConfig": "hide"
@@ -39,7 +39,7 @@
       ],
       "custom_css": [
         "input {background-color: transparent; max-width: 100%; padding: 9px 16px; margin: 7px 0;}",
-        "span {color: #262514; font-size: 20px!important;}"
+        "span {color: #262514; font-size: 20px !important;}"
       ],
       "settings": {
         "color_bg": "palette--light bg--neutral",

@@ -64,42 +64,6 @@
     {% form 'product', product, id: product_form_id, data-product-form: in_modal, data-product-handle: product.handle %}
       {% comment %} The input with name="id" submits to cart {% endcomment %}
       <input type="hidden" name="id" value="{{ current_variant.id }}">
-      
-      <script>
-        jQuery(document).ready(function($) {
-          $('#{{product_form_id}}').on('submit', function(e) {
-            e.preventDefault();
-            $.ajax({
-              type: 'POST',
-              url: '/cart/add.js',
-              data: $(this).serialize(),
-              dataType: 'json',
-              success: function(data) {
-                console.log(data)
-                history.go()
-                {% comment %} $.ajax({
-                  url: '/cart/update.js',
-                  dataType: 'json',                  
-                  success: function(res) {                  
-                    console.log(res);
-                    const data = {
-                      line: 1,
-                      quantity: 1
-                    };
-                    return window.fetch(`${window.theme.routes.cart}/change.js`, {
-                        method: 'post',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(data)
-                    });
-                  }                  
-                }); {% endcomment %}
-              }
-            });
-          })
-        })
-      </script>
 
       {% comment %} This will add a line item property called 'Preorder' to preorder products  {% endcomment %}
       {%- if product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true -%}

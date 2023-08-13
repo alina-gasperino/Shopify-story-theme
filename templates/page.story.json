@@ -45,7 +45,7 @@
         "template--16217786679464__8ebc5d69-75e1-4fdc-a221-4eb14eafd3c9-168573393335a8cd35-1": {
           "type": "text",
           "settings": {
-            "text": "<h4>\"functional design and wellness products blended together make the perfect pair.\"<\/h4>",
+            "text": "<h4>\"Functional design and wellness products blended together make the perfect pair.\"<\/h4>",
             "text_size": 9,
             "text_columns": 1
           }
@@ -252,7 +252,7 @@
         ".overlap__rte {font-size: 14px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AboutMe-4.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design-22.png",
         "bg_position": "center-center",
         "aspect_ratio": 1,
         "layout": "left",

@@ -86,7 +86,6 @@
     },
     "b068f109-8fd2-40e8-ba7d-a38dd192ec1c": {
       "type": "section-accordion",
-      "disabled": true,
       "blocks": {
         "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-0": {
           "type": "text",
@@ -115,6 +114,7 @@
         "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-1",
         "template--16217786777768__b068f109-8fd2-40e8-ba7d-a38dd192ec1c-16885003848913ddec-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "text-left",
@@ -187,7 +187,7 @@
         "title": "",
         "text": "",
         "logotext": "",
-        "text2": "<p>\"I'm a dog mom and tend to stray away from incense because of the smoke. However these incense cones smell amazing and they don't upset my fur babies. It's a win-win!\"<\/p>",
+        "text2": "<p>\"I'm a dog mom and tend to stray away from incense because of the smoke. However, these incense cones smell amazing and they don't upset my fur babies. It's a win-win!\"<\/p>",
         "color_text_bg": "palette--light bg--accent",
         "button_label": "",
         "button_link": "",
@@ -195,6 +195,24 @@
         "button_color": "btn--neutral",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1691703319f78406f8": {
+      "type": "apps",
+      "blocks": {
+        "430d14e5-360b-40e9-8d31-edd8c81b2202": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "430d14e5-360b-40e9-8d31-edd8c81b2202"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -206,6 +224,7 @@
     "judgeme_section_review_widget_9d8c",
     "recent",
     "related",
-    "3a5d9cae-81b7-4726-8e2f-75d6f5b513cb"
+    "3a5d9cae-81b7-4726-8e2f-75d6f5b513cb",
+    "1691703319f78406f8"
   ]
 }

@@ -2191,7 +2191,6 @@
               return response.json();
           }).then((response)=>{
               const matchKeys = (item)=>item.key === clickedKey
-              ;
               const index = response.items.findIndex(matchKeys);
               oldCount = response.item_count;
               newItem = response.items[index].title;

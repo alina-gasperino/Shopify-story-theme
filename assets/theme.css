@@ -26962,7 +26962,7 @@ body.template-page-about .logo__img--color {
 }
 
 .prdt-grid {
-  height: 600px !important;
+  height: 600px;
   display: flex !important;
 }
 .template-article .prdt-grid {

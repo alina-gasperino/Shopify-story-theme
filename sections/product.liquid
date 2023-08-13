@@ -71,7 +71,6 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                         {{ product.metafields.custom.accordion_title.value }}
                       </button>
                       <div class="accordion__body rte font--1"
-                        data-accordion-body
                         id="accordion-template--accordion1">
                           {{ product.metafields.custom.accordion_detail | metafield_tag }}             
                       </div>
@@ -85,7 +84,6 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                         {{ product.metafields.custom.accordion_title2.value }}
                       </button>
                       <div class="accordion__body rte font--1"
-                        data-accordion-body
                         id="accordion-template--accordion2">
                           {{ product.metafields.custom.accordion_detail2 | metafield_tag }}             
                       </div>
@@ -99,7 +97,6 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                         {{ product.metafields.custom.accordion_title3.value }}
                       </button>
                       <div class="accordion__body rte font--1"
-                        data-accordion-body
                         id="accordion-template--accordion3">
                           {{ product.metafields.custom.accordion_detail3 | metafield_tag }}             
                       </div>
@@ -154,7 +151,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                         border: 1px solid transparent;
                         text-align: left;
                       }
-                      #related-products-{{ block.id }} .prdt-grid {height: 500px !important; padding: 0px !important;}
+                      #related-products-{{ block.id }} .prdt-grid {padding: 0px !important;}
                       #related-products-{{ block.id }} .related-product:last-child {
                         margin-right: 0;
                       }
@@ -247,6 +244,56 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                 </div>
             {% endcase %}
           {% endfor %}
+
+          <section class="section-custom_fields_mobile"
+            data-section-id="{{ section.id }}"
+            data-section-type="accordion">
+            <div class="section-meta">
+              <div class="text__standard" data-accordion-group>          
+                <div class="page-accordion">
+                    <div class="accordion__wrapper">
+                      <button class="accordion__title font--1"
+                        data-accordion-trigger="accordion-template--accordion1"
+                        aria-controls="accordion-template--accordion1"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        {{ product.metafields.custom.accordion_title.value }}
+                      </button>
+                      <div class="accordion__body rte font--1"
+                        id="accordion-template--accordion1">
+                          {{ product.metafields.custom.accordion_detail | metafield_tag }}             
+                      </div>
+                    </div>
+                    <div class="accordion__wrapper">
+                      <button class="accordion__title font--1"
+                        data-accordion-trigger="accordion-template--accordion2"
+                        aria-controls="accordion-template--accordion2"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        {{ product.metafields.custom.accordion_title2.value }}
+                      </button>
+                      <div class="accordion__body rte font--1"
+                        id="accordion-template--accordion2">
+                          {{ product.metafields.custom.accordion_detail2 | metafield_tag }}             
+                      </div>
+                    </div>
+                    <div class="accordion__wrapper">
+                      <button class="accordion__title font--1"
+                        data-accordion-trigger="accordion-template--accordion3"
+                        aria-controls="accordion-template--accordion3"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        {{ product.metafields.custom.accordion_title3.value }}
+                      </button>
+                      <div class="accordion__body rte font--1"
+                        id="accordion-template--accordion3">
+                          {{ product.metafields.custom.accordion_detail3 | metafield_tag }}             
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>

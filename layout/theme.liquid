@@ -36,7 +36,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
 
   <link rel="preload" href="{{ 'lazysizes.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'vendor.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'theme.old.js' | asset_url }}" as="script">
+  <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
   <link rel="preload" href="{{ 'custom.css' | asset_url }}" as="style">
 
@@ -175,6 +175,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
   <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   <script type="text/javascript">
     if (window.MSInputMethodContext && document.documentMode) {
