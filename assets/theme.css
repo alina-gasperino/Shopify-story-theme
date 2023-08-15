@@ -26882,10 +26882,6 @@ body.template-page-about .logo__img--color {
   display: none !important;
 }
 
-.section-collection-grid .grid__item:first-child .collection-grid-item__content {
-  padding-left: 45px !important;
-}
-
 .thumbnails-wrapper {
   display: flex;
   flex-direction: column;
@@ -26959,6 +26955,7 @@ body.template-page-about .logo__img--color {
 
 .product-description-card {
   margin: 3px !important;
+  margin-left: 0px !important;
 }
 
 .prdt-grid {
@@ -27634,7 +27631,7 @@ body.template-page-about .logo__img--color {
   .combined-paragraph {
     display: block !important;
     font-size: 28px !important;
-    line-height: 3rem !important;
+    line-height: 1.2 !important;
   }
 
   #shopify-section-template--16217786450088__73ceb7e4-8569-4dcb-b8df-592260efaf81 .h1 p {

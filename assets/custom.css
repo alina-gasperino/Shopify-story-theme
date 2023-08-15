@@ -470,6 +470,40 @@ section.section-custom_fields_mobile {
 .cart__drawer .errors {
     display: none !important;
 }
+.prdt-grid .product-grid-item .card-name-review .jdgm-preview-badge[data-template="index"] {
+    display: block !important;
+  }
+.prdt-grid .product-grid-item .card-name-review .jdgm-widget.jdgm-preview-badge .jdgm-prev-badge__text {
+    display: none !important;
+}
+.template-product .breadcrumbs {
+    display: none;
+}
+.header__mobile__hamburger {
+    background: transparent !important;
+}
+input.shopify-challenge__button.btn {
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 36px;
+    width: 304px;
+}
+@media screen and (max-width: 1600px) {
+    .template-article .prdt-grid {
+        height: 600px !important;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .template-article .prdt-grid {
+        height: 550px !important;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .template-article .prdt-grid {
+        height: 500px !important;
+    }
+}
 @media screen and (max-width: 500px) {
     .desktop_video {
         display: none;
@@ -546,10 +580,44 @@ section.section-custom_fields_mobile {
     .related-products .product-grid-item {
         margin-bottom: 0;
     }
+    #collectionContainer .product-grid-item {
+        margin-bottom: 16px;
+    }
+    #collectionContainer .grid {
+        margin-left: 0;
+    }
     section.section-custom_fields_mobile {
         display: block;
     }
     section.section-custom_fields {
         display: none;
+    }
+    .grid, .grid--full {
+        margin-left: 0;
+    }
+    .blog-overlap, .cstm-bolg-grid {
+        display: block;
+    }
+    .section__blog__grid .grid__item {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    article.article__body, .article_content {
+        padding: 0;
+    }
+    article.article__body {
+        grid-template-columns: 1fr 8fr;
+    }
+    .article__image__feature {
+        display: none;
+    }
+    .article__title {
+        margin-top: 0;
+    }
+    .template-article .prdt-grid {
+        height: 500px!important;
+    }
+    .accordion__body {
+        padding: 0px 0px 30px 0px;
     }
 }
