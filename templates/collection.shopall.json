@@ -19,7 +19,6 @@
     },
     "banner": {
       "type": "collection-banner",
-      "disabled": true,
       "blocks": {
         "collections": {
           "type": "heading",
@@ -38,6 +37,7 @@
         "collections",
         "filters"
       ],
+      "disabled": true,
       "custom_css": [
         ".collection-bg-image {width: 50%; margin-left: 50%;}",
         ".hero__content {color: #fff; margin-left: 12%; text-align: left;}",
@@ -135,9 +135,9 @@
         ".wrapper--full {padding: 0px !important; background: #262613;}",
         ".overlap__text {padding-left: 18%;}",
         ".overlap__image {width: 50%;}",
-        ".overlap__content__wrapper {margin-right: 30%; font-size: 21px; font-weight: 400; line-height: 1.41; font-family: \"Neue Haas Unica\";}",
+        ".overlap__content__wrapper {margin-right: 30%; font-size: 21px; font-weight: 400; line-height: 1.41; font-family: \"Neue Haas Unica\"; padding: 30px 24px;}",
         ".overlap__item {background: #262613; color: white; margin: 0px; border-radius: 0px !important;}",
-        ".h3 {color: white; font-size: 10px; font-weight: 500; margin-bottom: 24px; letter-spacing: 2px; font-family: maison_neue_medium_extended;}",
+        ".h3 {color: white; font-size: 10px !important; font-weight: 500; margin-bottom: 24px; letter-spacing: 2px;}",
         ".image__fill {height: 100%;}",
         "strong {color: white;}"
       ],
@@ -163,7 +163,6 @@
     },
     "754b651a-ff54-4152-b0c5-5b1812d51f57": {
       "type": "text-with-accordion",
-      "disabled": true,
       "blocks": {
         "9e8dfda1-3fea-4dbb-a5f7-bfa3437babfd": {
           "type": "text",
@@ -192,6 +191,7 @@
         "bfe10be7-f7ac-4b1b-887f-0a7a90fac6ec",
         "ebcc0687-ac51-4a59-9190-2dd1c9cbd03b"
       ],
+      "disabled": true,
       "custom_css": [
         ".wrapper--full {display: flex; align-items: center; background: #b2a9a0; padding: 0px;}",
         ".overlap {width: 35%;}",

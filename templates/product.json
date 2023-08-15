@@ -177,7 +177,8 @@
         ".overlap__content__wrapper {padding: 0 20%;}",
         ".image__fill {padding-top: 0%; height: 100%;}",
         ".logo {text-align: center;}",
-        ".overlap__rte.text2 {font-size: 26px;}"
+        ".overlap__rte.text2 {font-size: 26px;}",
+        "@media screen and (max-width: 500px) {.overlap__content__wrapper {padding: 30px 24px;}}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC02868_9822eb9e-36a1-42d6-93f2-ac1cf0d3ba36.jpg",

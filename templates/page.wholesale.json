@@ -21,7 +21,7 @@
           "type": "shopify:\/\/apps\/process-wholesale\/blocks\/signup-form\/499e8f52-ed0c-4e9f-858d-3795c1fda878",
           "settings": {
             "wholesaleRegisterText": "wholesale account",
-            "wholesaleLoginText": "current customers login here.",
+            "wholesaleLoginText": "existing accounts login here.",
             "pendingAccountMessage": "Thank you! Your wholesale account is currently under review.",
             "pendingAccountMessageColor": "#30383f",
             "alreadyLoggedInAccountMessage": "You are logged into your wholesale account.",
@@ -38,8 +38,15 @@
         "c4036f93-61be-4897-ad98-8d1cd35d623d"
       ],
       "custom_css": [
+        "div {min-width: inherit !important;}",
         "input {background-color: transparent; max-width: 100%; padding: 9px 16px; margin: 7px 0;}",
-        "span {color: #262514; font-size: 20px !important;}"
+        "span {color: #262514; font-size: 20px !important;}",
+        "button {background: #fff; width: 100%; border-radius: 36px; margin-top: 20px;}",
+        "a {width: 450px;}",
+        ".field label span {font-size: 16px !important; color: #aaa;}",
+        ".field input:not(:placeholder-shown) + label span {font-size: 10px !important;}",
+        ".field input:focus + label span {font-size: 10px !important;}",
+        "@media screen and (max-width: 500px) {a {width: 100%; }}"
       ],
       "settings": {
         "color_bg": "palette--light bg--neutral",
